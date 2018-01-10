@@ -1,0 +1,41 @@
+* {
+ 	text-align: center;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+#innerbox {
+	background-color: lightgray;
+	height: 150px;
+
+}
+
+#instructions {
+background-color: white;
+height:250px;
+}
+
+#topleft {
+background-color: lightgray;
+height: 300px;
+margin: 0;
+}
+
+#topright {
+background-color: darkgray;
+height: 300px;
+}
+
+#bottomleft {
+background-color: gray;
+height: 300px;
+}
+
+#bottomright {
+background-color: black;
+height: 300px;
+}
+
