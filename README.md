@@ -5,8 +5,7 @@
 
 
 ## Overview
-Users will be able to generate ipsum placeholder text based off of any word that they choose to input. From here, as long as users have gone through the proper outlets on the page to sign up for an account, they will be able to save that placeholder text for future use, and even delete and add certain words, as they see fit.
-
+Users will be able to generate ipsum placeholder text based off of any word that they choose to input. From here, as long as users have gone through the proper outlets on the page to sign up for an account, they will be able to save that placeholder text for future use, and even delete and add certain words, as they see fit. Users may find a tool such as this useful for when they want to add placeholder text that contains words that are a little more tailored to the specific project.
 ### API: www.datamuse.com/api
 This API will be the only one used in this project. 
 A description of the API as per their landing page:
