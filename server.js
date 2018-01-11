@@ -1,41 +1,23 @@
+// EXPRESS
 var express = require('express');
 var app = express();
+//BODYPARSER
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
-//Heroku Connection
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+//DB
+var db = require('./models');
 
 
 
+// mongoose.connect( process.env.MONGODB_URI || "YOUR CURRENT LOCALHOST DB CONNECTION STRING HERE" );
+// app.listen(process.env.PORT || 3000);
 
-
-
-
+//ROUTES
 app.get('/', function(req, res){
-	res.send('Hello World!');
+	res.send('Hello Worldo!');
 });
 
-
-
-
-
-
-
-mongoose.connect( process.env.MONGODB_URI || "YOUR CURRENT LOCALHOST DB CONNECTION STRING HERE" );
-app.listen(process.env.PORT || 3000);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//SERVER
 app.listen(3000);
 console.log('running on port 3000...');
