@@ -5,11 +5,12 @@ var port    = process.env.PORT || 3000;
 
 
 //controller
+app.use(express.static(__dirname + '/public')); //Sends the public folder ((style.css + app.js))
 
 function pageRender(req, res){
-	app.use(express.static(__dirname + '/views')); //Sends the ((style.css + index.html))
 	res.sendFile(__dirname + '/views/index.html'); //Renders the viewable ((index.html))
-	app.use(express.static(__dirname + 'app.js')); //Sends the ((style.css + index.html))
+
+
 }
 
 //route

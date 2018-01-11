@@ -22,3 +22,4 @@ output.insertAdjacentHTML('beforeend', htmlString);
 
 }
 
+console.log('front end!');
