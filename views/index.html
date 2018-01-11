@@ -11,8 +11,27 @@
 	<title>Picsum Ipsum</title>
 </head>
 <body>
+<!-- FACEBOOK LOGIN -->
+<!-- FACEBOOK JAVASCRIPT SDK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11&appId=193516051387162';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
 
 <div class = "container-fluid">
+	<div class="row">
+		<div class="col-md-12"> <h1>PICSUM IPSUM</h1>
+		</div>
+	</div>
 	<div class="row">
  		<div class="col-md-8 " id="topleft">INSTRUCTIONS/WORKS
  			<div class="row">
@@ -30,9 +49,8 @@
 			<div class="row">
  				<div class="col-md-10 col-centered" id="instructions">
  					<br><br>
- 				<input type="text" id="username" placeholder="username"><br><br>
- 				<input type="text" id="password" placeholder="password"><br><br>
- 				<button id = "loginbutton">Log In</button> <button id = "signupbutton">Sign Up</button>
+ 					<div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="continue_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+ 
  				</div>
  			</div>
 		</div>
@@ -41,7 +59,7 @@
  		<div class="col-md-8 " id="bottomleft">GENERATOR
  			<div class="row">
  				<div class="col-md-10 col-centered" id="instructions">
- 						<h1> ENTER A WORD </h1>
+ 						<h2> ENTER A WORD </h2>
 						<input type="text" id="input">
 						<button id = "btn">Fetch Ipsum</button><br><br>
 						<textarea id = "wordOutput" rows="5" cols="50"></textarea>

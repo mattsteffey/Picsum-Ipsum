@@ -2,6 +2,14 @@
  	text-align: center;
 }
 
+h1 {
+	font-size: 400%;
+}
+
+h2 {
+	font-size: 200%;
+}
+
 .col-centered{
     float: none;
     margin: 0 auto;
@@ -14,28 +22,29 @@
 }
 
 #instructions {
-background-color: white;
-height:250px;
+	background-color: white;
+	height:250px;
 }
 
 #topleft {
-background-color: lightgray;
-height: 300px;
-margin: 0;
+	background-color: lightgray;
+	height: 300px;
+	margin: 0;
 }
 
 #topright {
-background-color: darkgray;
-height: 300px;
+	background-color: darkgray;
+	height: 300px;
 }
 
 #bottomleft {
-background-color: gray;
-height: 300px;
+	background-color: gray;
+	height: 300px;
 }
 
 #bottomright {
-background-color: black;
-height: 300px;
+	color: white;
+	background-color: black;
+	height: 300px;
 }
 
