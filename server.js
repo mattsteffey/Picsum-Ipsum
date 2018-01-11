@@ -6,13 +6,13 @@ var port    = process.env.PORT || 3000;
 
 //controller
 
-function htmlViewer(req, res){
-	app.use(express.static(__dirname + '/views'));
-	res.sendFile(__dirname + '/views/index.html');
+function pageRender(req, res){
+	app.use(express.static(__dirname + '/views')); //Sends the ((style.css + index.html))
+	res.sendFile(__dirname + '/views/index.html'); //Renders the viewable ((index.html))
 }
 
 //route
-app.get('/', htmlViewer); 
+app.get('/', pageRender); 
 
 
 // start server
