@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 //DB
 var db = require('./models');
 //MONGOOSE
-var mongoos = require('mongoose');
+var mongoose = require('mongoose');
 mongoose.connect( process.env.MONGODB_URI || "YOUR CURRENT LOCALHOST DB CONNECTION STRING HERE" );
 app.listen(process.env.PORT || 3000);
 
