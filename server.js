@@ -1,23 +1,40 @@
-// EXPRESS
+'use strict'
 var express = require('express');
-var app = express();
-//BODYPARSER
-var bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
-//DB
-var db = require('./models');
-//MONGOOSE
-var mongoose = require('mongoose');
-mongoose.connect( process.env.MONGODB_URI || "YOUR CURRENT LOCALHOST DB CONNECTION STRING HERE" );
-app.listen(process.env.PORT || 3000);
+var app     = express();
+var port    = process.env.PORT || 3000;
+
+
+//controller
+function pageViewer(req, res){
+	res.sendFile(__dirname + '/views/index.html');
+}
+
+//route
+app.get('/', pageViewer); 
 
 
 
 
-//ROUTES
-app.get('/', function(req, res){
-	res.send('Hello Worldo!');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// start server
+app.listen(port, function() {
+  console.log('Server started on', port); 
 });
 
-//SERVER
+
