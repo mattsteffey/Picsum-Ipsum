@@ -10,14 +10,14 @@ app.use(express.static(__dirname + '/public')); //Sends the public folder ((styl
 function pageRender(req, res){
 	res.sendFile(__dirname + '/views/index.html'); //Renders the viewable ((index.html))
 }
-function pageRender(req, res){
+function privacyRender(req, res){
 	res.sendFile(__dirname + '/views/privacypolicy.htm'); //Renders the viewable ((index.html))
 
 }
 
 //route
 app.get('/', pageRender); 
-app.get('/privacy', pageRender); 
+app.get('/privacy', privacyRender); 
 
 
 // start server
