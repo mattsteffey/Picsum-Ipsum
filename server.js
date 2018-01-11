@@ -7,7 +7,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 //DB
 var db = require('./models');
-
+//MONGOOSE
+var mongoos = require('mongoose');
+mongoose.connect( process.env.MONGODB_URI || "YOUR CURRENT LOCALHOST DB CONNECTION STRING HERE" );
+app.listen(process.env.PORT || 3000);
 
 
 
@@ -18,5 +21,3 @@ app.get('/', function(req, res){
 });
 
 //SERVER
-app.listen(3000);
-console.log('running on port 3000...');
