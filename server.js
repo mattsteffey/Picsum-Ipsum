@@ -2,10 +2,13 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+//Heroku Connection
 
-//Connect to Mongoose
-mongoose.connect('mongodb://localhost/infinity', { useMongoClient: true });
-var db = mongoose.connection;
+
+
+
+
+
 
 app.get('/', function(req, res){
 	res.send('Hello World!');
@@ -17,6 +20,8 @@ app.get('/', function(req, res){
 
 
 
+mongoose.connect( process.env.MONGODB_URI || "YOUR CURRENT LOCALHOST DB CONNECTION STRING HERE" );
+app.listen(process.env.PORT || 3000);
 
 
 
