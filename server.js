@@ -9,6 +9,7 @@ var port    = process.env.PORT || 3000;
 function pageRender(req, res){
 	app.use(express.static(__dirname + '/views')); //Sends the ((style.css + index.html))
 	res.sendFile(__dirname + '/views/index.html'); //Renders the viewable ((index.html))
+	app.use(express.static(__dirname + 'app.js')); //Sends the ((style.css + index.html))
 }
 
 //route
