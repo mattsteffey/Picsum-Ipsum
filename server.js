@@ -17,14 +17,14 @@ function privacyRender(req, res){
 	res.sendFile(__dirname + '/views/privacypolicy.htm'); //Renders the viewable ((privacypolicy.htm))
 }
 
-function saveRender(req, res){
-	console.log(req.body); 
-}
+// function saveRender(req, res){
+// 	console.log(req.body); 
+// }
 
 //route
 app.get('/', pageRender); 
 app.get('/privacy', privacyRender); 
-app.post('/api/save', saveRender);
+// app.post('/api/save', saveRender);
 
 // start server
 app.listen(port, function() {
