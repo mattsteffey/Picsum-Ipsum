@@ -59,13 +59,13 @@ output.insertAdjacentHTML('beforeend', htmlString);
 }
 
 // db shit
-var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
+// var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
 
-$.ajax({
-  type: "POST",
-  url: "/api/save",
-  data: saveData,
-});
+// $.ajax({
+//   type: "POST",
+//   url: "/api/save",
+//   data: saveData,
+// });
 
 
 
