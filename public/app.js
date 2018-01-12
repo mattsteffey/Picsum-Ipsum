@@ -15,7 +15,7 @@ window.fbAsyncInit = function() {
        if (response.status === 'connected') {
             FB.api('/me', function(response) {
     		var userData = (JSON.stringify(response));
-    		console.log(userData);
+    	
 			});
 		}
 	});
@@ -27,7 +27,6 @@ window.fbAsyncInit = function() {
      js = d.createElement(s); js.id = id;
      js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
-     console.log(d.getElementById(id));
    }(document, 'script', 'facebook-jssdk'));
 
 ///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA
