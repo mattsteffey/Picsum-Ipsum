@@ -48,7 +48,13 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
-
+save.addEventListener('click', function(){
+$.ajax({
+  type: "POST",
+  url: 'api/save',
+  data: saveData,
+});
+});
 
 // Renders Datamuse API Data into the text field
 function renderHTML(data) {
