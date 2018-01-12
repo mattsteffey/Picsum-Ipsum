@@ -52,8 +52,8 @@ function renderHTML(data) {
 	var htmlString = "";
 	for (i = 0; i < data.length; i++) { 
 		htmlString += data[i].word + " ";
-    ipsumOutput = htmlString;
 	}
+  ipsumOutput = htmlString;
 output.insertAdjacentHTML('beforeend', htmlString);
 }
 
