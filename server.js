@@ -6,6 +6,8 @@ var app		= require('./public/app');
 var bodyparser = require('body-parser');
 
 //controller
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public')); //Sends the public folder ((style.css + app.js))
 
 function pageRender(req, res){
