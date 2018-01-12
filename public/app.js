@@ -48,7 +48,7 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
-btn.addEventListener('click', function() {
+save.addEventListener('click', function() {
   var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
   $.ajax({
     type: "POST",
