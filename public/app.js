@@ -2,6 +2,9 @@ var output = document.getElementById('wordOutput');
 var btn = document.getElementById('btn');
 // var mongo = require('mongodb').MongoClient;
 var tokenId = "";
+var wordInput = "";
+var ipsumOutput = "";
+
 ///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA
 window.fbAsyncInit = function() {
     FB.init({
@@ -15,8 +18,6 @@ window.fbAsyncInit = function() {
        if (response.status === 'connected') {
             FB.api('/me', function(response) {
     		tokenId = response.id;
-        console.log(tokenId);
-    	  
 			});
 		}
 	});
@@ -41,6 +42,7 @@ btn.addEventListener('click', function() {
 	ourRequest.onload = function() {
 		var ourData = JSON.parse(ourRequest.responseText);
 		renderHTML(ourData);
+
 	};
 	ourRequest.send();
 });
@@ -50,13 +52,16 @@ function renderHTML(data) {
 	var htmlString = "";
 	for (i = 0; i < data.length; i++) { 
 		htmlString += data[i].word + " ";
+    ipsumOutput = htmlString;
 	}
 output.insertAdjacentHTML('beforeend', htmlString);
 }
 
 // db shit
-function saveData() {
-
+function variables() {
+  console.log(tokenId);
+  console.log(wordInput);
+  console.log(ipsumOutput);
 }
 
 
