@@ -15,7 +15,7 @@
     "mongod": "^2.0.0",
     "mongodb": "^3.0.1",
     "mongoose": "*",
-    "require": "*"
+    "require": "^2.4.20"
   },
   "author": "Matt Steffey",
   "license": "ISC",
