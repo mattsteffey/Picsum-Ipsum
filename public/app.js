@@ -48,10 +48,6 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
-save.addEventListener('click', function() {
-var ourRequest = new XMLHttpRequest();
-ourRequest.open('POST', '');
-});
 
 
 // Renders Datamuse API Data into the text field
