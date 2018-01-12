@@ -1,7 +1,7 @@
 var output = document.getElementById('wordOutput');
 var btn = document.getElementById('btn');
 // var mongo = require('mongodb').MongoClient;
-
+var tokenId = "";
 ///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA
 window.fbAsyncInit = function() {
     FB.init({
@@ -14,8 +14,9 @@ window.fbAsyncInit = function() {
      FB.getLoginStatus(function(response) {
        if (response.status === 'connected') {
             FB.api('/me', function(response) {
-    		var userData = (JSON.stringify(response));
-    	  console.log(userData);
+    		tokenId = response.id;
+        console.log(tokenId);
+    	  
 			});
 		}
 	});
