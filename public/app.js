@@ -15,7 +15,7 @@ window.fbAsyncInit = function() {
        if (response.status === 'connected') {
             FB.api('/me', function(response) {
     		var userData = (JSON.stringify(response));
-    	
+    	  console.log(userData);
 			});
 		}
 	});
