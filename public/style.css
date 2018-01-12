@@ -27,13 +27,13 @@ h2 {
 }
 
 #topleft {
-	background-color: lightgray;
+	background-color: gray;
 	height: 300px;
 	margin: 0;
 }
 
 #topright {
-	background-color: darkgray;
+	background-color: gray;
 	height: 300px;
 }
 
@@ -44,7 +44,7 @@ h2 {
 
 #bottomright {
 	color: white;
-	background-color: black;
+	background-color: gray;
 	height: 300px;
 }
 
