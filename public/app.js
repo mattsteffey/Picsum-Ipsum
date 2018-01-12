@@ -60,10 +60,12 @@ output.insertAdjacentHTML('beforeend', htmlString);
 
 // db shit
 var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
-function assignValues() {
-  console.log(saveData);
-}
 
+$.ajax({
+  type: "POST",
+  url: "/api/save",
+  data: saveData,
+});
 
 
 
