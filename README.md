@@ -1,15 +1,13 @@
 # Picsum Ipsum
 ### Heroku Link: https://picsumipsum.herokuapp.com/
 ## Wireframe/Mockups:
-### Version 1.0
-![alt text](https://github.com/mattsteffey/Project2/blob/master/extras/wireframe.png)
 ### Version 2.0 (Bootstrap Stretch Goals)
 #### Browser Window (large)
-![alt text](https://github.com/mattsteffey/Project2/blob/master/extras/large.png)
+![alt text](https://github.com/mattsteffey/Picsum-Ipsum/blob/master/extras/large.png?raw=true)
 #### Tablet (medium)
-![alt text](https://github.com/mattsteffey/Project2/blob/master/extras/medium.png)
+![alt text](https://github.com/mattsteffey/Picsum-Ipsum/blob/master/extras/medium.png?raw=true)
 #### Mobile (small)
-![alt text](https://github.com/mattsteffey/Project2/blob/master/extras/small.png)
+![alt text](https://github.com/mattsteffey/Picsum-Ipsum/blob/master/extras/small.png?raw=true)
 
 ### Trello: https://trello.com/b/Legl6Tmk/picsum-ipsum
 
