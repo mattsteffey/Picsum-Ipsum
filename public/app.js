@@ -52,7 +52,7 @@ save.addEventListener('click', function(){
 var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
 $.ajax({
   type: "POST",
-  url: 'api/save',
+  url: '/api/save',
   data: saveData,
 });
 });
