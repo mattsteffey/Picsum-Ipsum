@@ -48,6 +48,16 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
+btn.addEventListener('click', function() {
+  var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
+  $.ajax({
+    type: "POST",
+    url: "/api/save",
+    data: saveData,
+   });
+  console.log('button works!');
+});
+
 // Renders Datamuse API Data into the text field
 function renderHTML(data) {
 	var htmlString = "";
@@ -59,13 +69,13 @@ output.insertAdjacentHTML('beforeend', htmlString);
 }
 
 // db shit
-var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
+// var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
 
-$.ajax({
-  type: "POST",
-  url: "/api/save",
-  data: saveData,
-});
+// $.ajax({
+//   type: "POST",
+//   url: "/api/save",
+//   data: saveData,
+// });
 
 
 
