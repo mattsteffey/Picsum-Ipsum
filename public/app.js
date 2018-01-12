@@ -1,5 +1,6 @@
 var output = document.getElementById('wordOutput');
 var btn = document.getElementById('btn');
+var mongo = require('mongodb').MongoClient;
 
 ///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA
 window.fbAsyncInit = function() {
@@ -27,6 +28,7 @@ window.fbAsyncInit = function() {
      js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+console.log(d.getElementById(id));
 ///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA
 
 
@@ -50,5 +52,19 @@ function renderHTML(data) {
 	}
 output.insertAdjacentHTML('beforeend', htmlString);
 }
+
+// db shit
+function saveData() {
+
+}
+
+
+
+
+
+
+
+
+
 
 console.log('front end loaded!');
