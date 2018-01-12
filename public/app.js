@@ -49,14 +49,9 @@ btn.addEventListener('click', function() {
 });
 
 save.addEventListener('click', function() {
-  var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
-  $.ajax({
-    type: "POST",
-    url: "/api/save",
-    data: saveData,
-   });
-  console.log('button works!');
+console.log('save button works');
 });
+
 
 // Renders Datamuse API Data into the text field
 function renderHTML(data) {
