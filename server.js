@@ -5,8 +5,8 @@ var port    = process.env.PORT || 3000;
 var bodyparser = require('body-parser');
 
 //controller
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public')); //Sends the public folder ((style.css + app.js))
 
 function pageRender(req, res){
@@ -17,14 +17,14 @@ function privacyRender(req, res){
 	res.sendFile(__dirname + '/views/privacypolicy.htm'); //Renders the viewable ((privacypolicy.htm))
 }
 
-// function saveRender(req, res){
-// 	console.log(req.body); 
-// }
+function saveRender(req, res){
+	console.log(req.body); 
+}
 
 //route
 app.get('/', pageRender); 
 app.get('/privacy', privacyRender); 
-// app.post('/api/save', saveRender);
+app.post('/api/save', saveRender);
 
 // start server
 app.listen(port, function() {
