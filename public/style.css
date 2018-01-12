@@ -27,17 +27,20 @@ h2 {
 }
 
 #topleft {
+	color: white;
 	background-color: gray;
 	height: 300px;
 	margin: 0;
 }
 
 #topright {
+	color: white;
 	background-color: gray;
 	height: 300px;
 }
 
 #bottomleft {
+	color: white;
 	background-color: gray;
 	height: 300px;
 }
