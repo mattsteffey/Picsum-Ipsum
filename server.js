@@ -2,12 +2,12 @@
 var express = require('express');
 var app     = express();
 var port    = process.env.PORT || 3000;
-var app		= require('./public/app');
-var bodyparser = require('body-parser');
+// var app		= require('./public/app');
+// var bodyparser = require('body-parser');
 
 //controller
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public')); //Sends the public folder ((style.css + app.js))
 
 function pageRender(req, res){
