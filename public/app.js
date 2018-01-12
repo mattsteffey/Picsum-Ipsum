@@ -1,6 +1,6 @@
 var output = document.getElementById('wordOutput');
 var btn = document.getElementById('btn');
-var mongo = require('mongodb').MongoClient;
+//var mongo = require('mongodb').MongoClient; //cant use this on front end
 var tokenId = "";
 var wordInput = "";
 var ipsumOutput = "";
