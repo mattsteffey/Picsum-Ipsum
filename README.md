@@ -3,7 +3,13 @@
 ## Wireframe/Mockups:
 ### Version 1.0
 ![alt text](https://github.com/mattsteffey/Project2/blob/master/Extras/wireframe.png)
-
+### Version 2.0 (Bootstrap Stretch Goals)
+#### Browser Window (large)
+![alt text](https://github.com/mattsteffey/Project2/blob/master/Extras/large.png)
+#### Tablet (medium)
+![alt text](https://github.com/mattsteffey/Project2/blob/master/Extras/medium.png)
+#### Mobile (small)
+![alt text](https://github.com/mattsteffey/Project2/blob/master/Extras/small.png)
 
 ### Trello: https://trello.com/b/Legl6Tmk/picsum-ipsum
 
