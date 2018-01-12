@@ -1,53 +1,35 @@
-* {
- 	text-align: center;
+.logocol {
+background-color: #27423b;
+height: 200px;
 }
 
-h1 {
-	font-size: 400%;
+.logincol {
+background-color: #325656;
+height: 200px;
 }
 
-h2 {
-	font-size: 200%;
+.instructionscol {
+background-color: #5f8c96;
+height: 200px;
 }
 
-.col-centered{
-    float: none;
-    margin: 0 auto;
+.generatorcol {
+background-color: #6ca1b2;
+height: 200px;
 }
 
-#innerbox {
-	background-color: lightgray;
-	height: 150px;
-
+.workscol {
+background-color: #83b7c7;
+height: 200px;
 }
 
-#instructions {
-	background-color: white;
-	height:250px;
+.savedcol {
+background-color: #9bc5d2;
+height: 200px;
 }
 
-#topleft {
-	color: white;
-	background-color: gray;
-	height: 300px;
-	margin: 0;
-}
-
-#topright {
-	color: white;
-	background-color: gray;
-	height: 300px;
-}
-
-#bottomleft {
-	color: white;
-	background-color: gray;
-	height: 300px;
-}
-
-#bottomright {
-	color: white;
-	background-color: gray;
-	height: 300px;
+.commentscol {
+background-color: #c1dbe3;
+height: 200px;
 }
 
