@@ -38,7 +38,8 @@ window.fbAsyncInit = function() {
 btn.addEventListener('click', function() {
 	var x = document.getElementById('input');
 	var ourRequest = new XMLHttpRequest();
-	ourRequest.open('GET', 'https://api.datamuse.com/words?rel_trg=' + x.value); 
+	ourRequest.open('GET', 'https://api.datamuse.com/words?rel_trg=' + x.value);
+  wordInput = x.value; 
 	ourRequest.onload = function() {
 		var ourData = JSON.parse(ourRequest.responseText);
 		renderHTML(ourData);
