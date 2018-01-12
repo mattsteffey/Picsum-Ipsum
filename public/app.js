@@ -1,6 +1,6 @@
 var output = document.getElementById('wordOutput');
 var btn = document.getElementById('btn');
-// var mongo = require('mongodb').MongoClient;
+var mongo = require('mongodb').MongoClient;
 var tokenId = "";
 var wordInput = "";
 var ipsumOutput = "";
@@ -59,7 +59,7 @@ output.insertAdjacentHTML('beforeend', htmlString);
 }
 
 // db shit
-function variables() {
+function assignValues() {
   console.log(tokenId);
   console.log(wordInput);
   console.log(ipsumOutput);
