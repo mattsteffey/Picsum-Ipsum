@@ -3,6 +3,7 @@ var express = require('express');
 var app     = express();
 var port    = process.env.PORT || 3000;
 var app		= require('./public/app');
+var bodyparser = require('body-parser');
 
 //controller
 app.use(express.static(__dirname + '/public')); //Sends the public folder ((style.css + app.js))
@@ -15,9 +16,9 @@ function privacyRender(req, res){
 	res.sendFile(__dirname + '/views/privacypolicy.htm'); //Renders the viewable ((privacypolicy.htm))
 }
 
-function saveRender(req, res){
-	console.log(req.body); 
-}
+// function saveRender(req, res){
+// 	console.log(req.body); 
+// }
 
 //route
 app.get('/', pageRender); 
