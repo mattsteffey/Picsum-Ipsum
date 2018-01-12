@@ -18,7 +18,7 @@ function privacyRender(req, res){
 }
 
 function saveRender(req, res){
-	res.req.body; 
+	console.log(req.body);
 }
 
 //route
