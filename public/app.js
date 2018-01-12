@@ -48,34 +48,14 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
-save.addEventListener('click', function(){
-var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
-$.ajax({
-  type: "POST",
-  url: '/api/save',
-  data: saveData,
-});
-});
-
 // Renders Datamuse API Data into the text field
 function renderHTML(data) {
-	var htmlString = "";
-	for (i = 0; i < data.length; i++) { 
-		htmlString += data[i].word + " ";
-	}
+  var htmlString = "";
+  for (i = 0; i < data.length; i++) { 
+    htmlString += data[i].word + " ";
+  }
   ipsumOutput = htmlString;
 output.insertAdjacentHTML('beforeend', htmlString);
 }
-
-// db shit
-//var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
-
-// $.ajax({
-//   type: "POST",
-//   url: "/api/save",
-//   data: saveData,
-// });
-
-
 
 console.log('front end loaded!');
