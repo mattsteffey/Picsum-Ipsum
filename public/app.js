@@ -1,6 +1,6 @@
 var output = document.getElementById('wordOutput');
 var btn = document.getElementById('btn');
-var mongo = require('mongodb').MongoClient;
+// var mongo = require('mongodb').MongoClient;
 
 ///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA
 window.fbAsyncInit = function() {
