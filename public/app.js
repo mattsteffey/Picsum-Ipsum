@@ -50,11 +50,12 @@ btn.addEventListener('click', function() {
 
 save.addEventListener('click', function(){
 var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
-$.ajax({
-  type: "POST",
-  url: '/api/save',
-  data: saveData,
-});
+// $.ajax({
+//   type: "POST",
+//   url: '/api/save',
+//   data: saveData,
+console.log(saveData);
+// });
 });
 
 // Renders Datamuse API Data into the text field
