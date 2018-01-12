@@ -21,6 +21,10 @@
       xfbml            : true,
       version          : 'v2.11'
     });
+    FB.ui({
+  method: 'share',
+  href: 'https://developers.facebook.com/docs/'
+	}, function(response){});
   };
 
   (function(d, s, id){
@@ -50,7 +54,7 @@
  					<button id ="howitworksbutton">How it Works</button><br><br>
  					<div class="col-md-10 col-centered" id="innerbox" >
  						ENTER A WORD BELOW, AND CLICK "FETCH IPSUM" TO GET CUSTOM IPSUM TEXT!
- 						 
+
  					</div>
 
  				</div>
