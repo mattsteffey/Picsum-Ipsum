@@ -2,7 +2,6 @@
 var express = require('express');
 var app     = express();
 var port    = process.env.PORT || 3000;
-var app		= require('./public/app');
 var bodyparser = require('body-parser');
 
 //controller
