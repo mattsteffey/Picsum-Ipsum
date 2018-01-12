@@ -59,17 +59,10 @@ output.insertAdjacentHTML('beforeend', htmlString);
 }
 
 // db shit
+var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
 function assignValues() {
-  console.log(tokenId);
-  console.log(wordInput);
-  console.log(ipsumOutput);
+  console.log(saveData);
 }
-
-
-
-
-
-
 
 
 
