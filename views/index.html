@@ -21,10 +21,18 @@
       xfbml            : true,
       version          : 'v2.11'
     	});
-    FB.api('/me', function(response) {
-    console.log(JSON.stringify(response));
+     
+     FB.getLoginStatus(function(response) {
+       if (response.status === 'connected') {
+            FB.api('/me', function(response) {
+    		console.log(JSON.stringify(response));
+		});
+	}
 });
- 	};
+};
+
+
+ 	
 
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
