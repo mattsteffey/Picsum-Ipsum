@@ -49,7 +49,9 @@ btn.addEventListener('click', function() {
 });
 
 save.addEventListener('click', function() {
-console.log('save button works');
+var ourRequest = new XMLHttpRequest();
+var saveData = [{tokenId:tokenId, wordInput:wordInput, ipsumOutput:ipsumOutput}];
+ourRequest.open('POST', 'https://picsumipsum.herokuapp.com/api/save');
 });
 
 
