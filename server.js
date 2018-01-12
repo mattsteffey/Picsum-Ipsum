@@ -5,8 +5,8 @@ var port    = process.env.PORT || 3000;
 var bodyparser = require('body-parser');
 
 //controller
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyparser.json());
+app.use(bodyarser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public')); //Sends the public folder ((style.css + app.js))
 
 function pageRender(req, res){
