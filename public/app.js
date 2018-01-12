@@ -1,6 +1,7 @@
 var output = document.getElementById('wordOutput');
 var btn = document.getElementById('btn');
 
+///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA
 window.fbAsyncInit = function() {
     FB.init({
       appId            : '193516051387162',
@@ -12,7 +13,8 @@ window.fbAsyncInit = function() {
      FB.getLoginStatus(function(response) {
        if (response.status === 'connected') {
             FB.api('/me', function(response) {
-    		console.log(JSON.stringify(response));
+    		var userData = (JSON.stringify(response));
+    		console.log(userData);
 			});
 		}
 	});
@@ -25,10 +27,10 @@ window.fbAsyncInit = function() {
      js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA///////////////FACEBOOK DATA
 
 
-
-
+// Button to fetch API Data from Datamuse
 btn.addEventListener('click', function() {
 	var x = document.getElementById('input');
 	var ourRequest = new XMLHttpRequest();
@@ -40,16 +42,13 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
+// Renders Datamuse API Data into the text field
 function renderHTML(data) {
 	var htmlString = "";
 	for (i = 0; i < data.length; i++) { 
 		htmlString += data[i].word + " ";
 	}
-
 output.insertAdjacentHTML('beforeend', htmlString);
-
-
-
 }
 
-console.log('front end!');
+console.log('front end loaded!');
