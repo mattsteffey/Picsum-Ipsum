@@ -31,6 +31,7 @@ height: 200px;
 .instructionscol {
 background-color: #5f8c96;
 height: 400px;
+color: #88D317;
 }
 
 .generatorcol {
@@ -42,6 +43,7 @@ height: 400px;
 .workscol {
 background-color: #83b7c7;
 height: 400px;
+color: #88D317;
 }
 
 .savedcol {
