@@ -1,5 +1,16 @@
 #logo {
 height: 200px;
+position: absolute;
+}
+
+#picsum {
+font-size:300% ;
+position: absolute;
+}
+
+#ipsum {
+font-size:300% ;
+position: absolute;
 }
 
 .logocol {
