@@ -1,16 +1,18 @@
 #logo {
 height: 200px;
+margin-left: 35%;
 position: absolute;
 }
 
 #picsum {
-font-size:300% ;
+font-size:400% ;
 position: absolute;
 }
 
 #ipsum {
-font-size:300% ;
+font-size:400% ;
 position: absolute;
+margin-left: 65%;
 }
 
 .logocol {
