@@ -7,8 +7,7 @@ var bodyparser = require('body-parser');
 //controller
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended: true}));
-app.use(express.static(__dirname + '/public')); //Sends the public folder ((style.css + app.js))
-
+app.use(express.static(__dirname + '/public'));
 function pageRender(req, res){
 	res.sendFile(__dirname + '/views/index.html'); //Renders the viewable ((index.html))
 }
