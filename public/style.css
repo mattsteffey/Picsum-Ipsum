@@ -3,8 +3,12 @@
 }
 
 #title {
-	font-size: 400%;
+	font-size: 500%;
 
+}
+
+#ipsum {
+	font-weight: bold;
 }
 
 .fb-login-button {
