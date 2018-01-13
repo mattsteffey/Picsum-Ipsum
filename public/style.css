@@ -19,8 +19,9 @@
 }
 
 .fb-login-button {
+	position: absolute;
 	margin-top: 70%;
-	margin-right: 30%;
+	margin-left: 30%;
 
 }
 
