@@ -1,56 +1,61 @@
 #logo {
-height: 200px;
-margin-left: 35%;
-position: absolute;
+	height: 200px;
+	margin-left: 35%;
+	position: absolute;
 }
 
 #picsum {
-font-size:400% ;
-position: absolute;
-margin-top: 13%;
-margin-left: 7%;
+	font-size:400% ;
+	position: absolute;
+	margin-top: 13%;
+	margin-left: 7%;
 }
 
 #ipsum {
-font-size:400% ;
-position: absolute;
-margin-top: 13%;
-margin-left: 65%;
+	font-size:400% ;
+	position: absolute;
+	margin-top: 13%;
+	margin-left: 65%;
+}
+
+.fb-login-button {
+	bottom: 0px;
+
 }
 
 .logocol {
-background-color:;
-height: 200px;
+	background-color:;
+	height: 200px;
 }
 
 .logincol {
-background-color:;
-height: 200px;
+	background-color:;
+	height: 200px;
 }
 
 .instructionscol {
-background-color: #88D317;
-height: 400px;
+	background-color: #88D317;
+	height: 400px;
 }
 
 .generatorcol {
-background-color: #6e3667;
-color: white;
-height: 400px;
+	background-color: #6e3667;
+	color: white;
+	height: 400px;
 }
 
 .workscol {
-background-color: #88D317;
-height: 400px;
+	background-color: #88D317;
+	height: 400px;
 }
 
 .savedcol {
-background-color: #9bc5d2;
-height: 200px;
+	background-color: #9bc5d2;
+	height: 200px;
 }
 
 .commentscol {
-background-color: #c1dbe3;
-height: 200px;
+	background-color: #c1dbe3;
+	height: 200px;
 }
 
