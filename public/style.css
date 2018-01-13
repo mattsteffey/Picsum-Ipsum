@@ -22,7 +22,7 @@
 
 .instructionscol {
 	background-color: #88D317;
-	height: 400px;
+	height: 200px;
 }
 
 .generatorcol {
@@ -33,11 +33,6 @@
 
 .workscol {
 	background-color: #88D317;
-	height: 400px;
-}
-
-.savedcol {
-	background-color: #9bc5d2;
 	height: 200px;
 }
 
