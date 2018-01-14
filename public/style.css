@@ -18,10 +18,11 @@ p {
 	display:block;
 	width: 300px;
  	margin: 0 auto;
+ 	margin-bottom: 1%
 }
 
 #btn {
-
+margin-bottom": 3%;
 }
 
 #copy {
