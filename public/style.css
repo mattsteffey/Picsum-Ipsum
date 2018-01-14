@@ -23,15 +23,17 @@ p {
 }
 
 #btn {
-margin-bottom: 3%;
+	color: #883317;
+	margin: 1%
 }
 
 #copy {
-	
+	margin: 1%
 }
 
 #clear {
-	
+    margin: 1%
+    color: #883317;	
 }
 
 #logo {
