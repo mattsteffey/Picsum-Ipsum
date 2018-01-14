@@ -26,11 +26,13 @@
 	background-color:;
 	text-align: center;
 	height: 100px;
+	margin-top: 5%;
 
 }
 
 .logocol {
 	height: 200px;
+	margin-top: 5%;
 }
 
 .logincol {
@@ -55,6 +57,7 @@
 .workscol {
 	background-color: #88D317;
 	height: 400px;
+	margin-top: 5%;
 }
 
 .commentscol {
