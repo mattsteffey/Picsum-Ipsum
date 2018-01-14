@@ -3,6 +3,10 @@
 	margin: 0;
 }
 
+img {
+	margin-right: 0;
+}
+
 #logo {
 	height: 200px;
 	display:block;
