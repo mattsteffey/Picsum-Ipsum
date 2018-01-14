@@ -49,6 +49,7 @@ margin: 0 auto;
 .instructionscol {
 	background-color: #88D317;
 	height: 400px;
+	border: 3px solid #1a0315;
 }
 
 .generatorcol {
@@ -62,6 +63,7 @@ margin: 0 auto;
 	background-color: #88D317;
 	height: 400px;
 	margin-right: 5%;
+	border: 3px solid #1a0315;
 }
 
 .commentscol {
@@ -81,12 +83,11 @@ margin: 0 auto;
 	margin-right: 0%;
 	margin-top: 0%;
 	height: 200px;
-	border: 3px solid #1a0315;
+
 }
 .instructionscol{
 	margin-top: 30%;
 	height: 200px;
-	border: 3px solid #1a0315;
 }
 
 .titlecol {
