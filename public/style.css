@@ -85,7 +85,7 @@ margin: 0 auto;
 .instructionscol{
 	margin-top: 30%;
 	height: 200px;
-	border: 3px solid;
+	border: 3px solid #1a0315;
 }
 
 .titlecol {
@@ -96,7 +96,7 @@ margin: 0 auto;
 .logincol {
 	background-color:;
 	height: 0px;
-	border: 3px solid;
+	border: 3px solid #1a0315;
 }
 
 #logo {
