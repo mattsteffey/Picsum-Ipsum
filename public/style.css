@@ -72,8 +72,14 @@
         line-height: 50%;
     }
 
-.instructionscol .workscol {
+.workscol {
+		margin-top: 10%;
 		height: 200px;
+}
+.instructionscol{
+		margin-top: 30%;
+		height: 200px;
+
 }
 
 .titlecol {
