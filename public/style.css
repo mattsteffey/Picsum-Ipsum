@@ -7,7 +7,7 @@
 #logo {
 	height: 200px;
 	display:block;
-    
+    float: right;
 }
 
 #title {
@@ -90,4 +90,8 @@
 .logincol {
 	background-color:;
 	height: 0px;
+}
+
+#logo {
+    float: none;
 }
