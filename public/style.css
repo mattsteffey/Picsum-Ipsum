@@ -6,6 +6,7 @@ h2 {
 p {
 	display: block;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 140%;
 }
 
 #logo {
@@ -96,6 +97,10 @@ p {
 
  #headers {
 	font-size: 250%;
+}
+
+p {
+	font-size: 100%;
 }
 
 .workscol {
