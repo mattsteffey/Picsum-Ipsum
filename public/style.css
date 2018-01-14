@@ -75,4 +75,14 @@
 .instructionscol .workscol {
 		height: 200px;
 }
+
+.titlecol {
+	height: 100px;
+	margin-top: -5%;
+}
+
+.logincol {
+	background-color:;
+	height: 0px;
+
 }
