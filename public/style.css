@@ -1,5 +1,7 @@
 #logo {
 	height: 200px;
+	display:block;
+    margin:auto;
 }
 
 #title {
@@ -22,8 +24,6 @@
 
 .logocol {
 	height: 200px;
-	display:block;
-    margin:auto;
 }
 
 .logincol {
