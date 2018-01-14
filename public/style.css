@@ -1,7 +1,7 @@
 h2 {
 	text-align: center;
 	font-size: 400%;
-	
+
 }
 
 p {
@@ -14,7 +14,7 @@ p {
 	height: 200px;
 	display:block;
     float: right;
-    margin-left: -5%
+    margin-right: 10%
 }
 
 #headers {
@@ -27,7 +27,8 @@ p {
 
 #title {
 	font-size: 500%;
-	margin-left: -10%;
+	margin-left: -15%;
+	padding-top:5%;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -136,6 +137,7 @@ p {
 #title {
 	text-align: center;
 	margin-left: 0%;
+	padding-top: 0%;
 }
 
 #wordOutput {
