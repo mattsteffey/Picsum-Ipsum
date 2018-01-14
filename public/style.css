@@ -15,6 +15,11 @@
 	font-weight: bold;
 }
 
+#wprdOutput{
+position: absolute;
+margin: 0 auto;
+}
+
 .top {
 	margin-left:5%;
 	margin-right:5%;
