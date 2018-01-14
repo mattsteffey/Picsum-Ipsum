@@ -23,6 +23,9 @@ p {
     resize: none;
 }
 
+a {
+	font-weight: bold;
+}
 
 #input {
 	display:block;
