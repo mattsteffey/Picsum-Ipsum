@@ -1,5 +1,5 @@
 body {
-	background-image: url("bg.png");
+	/*background-image: url("bg.png");*/
 }
 
 h2 {
@@ -111,7 +111,8 @@ p {
 }
 
 .generatorcol {
-	background: linear-gradient(to bottom, #1a0315, #6217d3);
+	/*background: linear-gradient(to bottom, #1a0315, #6217d3);*/
+	background-image: url("bg.png");
 	color: white;
 	height: 400px;
 	margin-bottom: 3%;
