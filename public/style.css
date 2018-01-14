@@ -5,6 +5,7 @@ h2 {
 
 p {
 	display: block;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #logo {
@@ -24,7 +25,7 @@ p {
 #title {
 	font-size: 500%;
 	margin-left: -10%;
-
+	font-family: 'Montserrat', sans-serif;
 }
 
 #ipsum {
@@ -95,6 +96,7 @@ p {
 
  #headers {
 	font-size: 250%;
+}
 
 .workscol {
 	margin-right: 0%;
@@ -103,7 +105,8 @@ p {
 	height: 200px;
 
 }
-.instructionscol{
+
+.instructionscol {
 	margin-top: 30%;
 	height: 200px;
 }
