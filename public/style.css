@@ -80,6 +80,7 @@ margin: 0 auto;
 .workscol {
 	margin-right: 0%;
 	margin-top: 0%;
+	margin-bottom: 3%;
 	height: 200px;
 
 }
@@ -117,3 +118,6 @@ width: 90%;
 	margin-right:0%;
 }
 
+.generatorcol {
+	margin-bottom: 3%;
+}
