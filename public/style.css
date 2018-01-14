@@ -1,7 +1,7 @@
 h2 {
 	text-align: center;
 	font-size: 400%;
-	font-family: 'Montserrat', sans-serif;
+	
 }
 
 p {
@@ -14,7 +14,7 @@ p {
 	height: 200px;
 	display:block;
     float: right;
-    margin-left: -10%
+    margin-left: -5%
 }
 
 #headers {
@@ -27,7 +27,7 @@ p {
 
 #title {
 	font-size: 500%;
-	margin-right: 12%;
+	margin-left: -10%;
 	font-family: 'Montserrat', sans-serif;
 }
 
