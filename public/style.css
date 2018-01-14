@@ -16,6 +16,8 @@ p {
 
 #input {
 	display:block;
+	width: 300px;
+ 	margin: 0 auto;
 }
 
 #btn {
@@ -58,7 +60,7 @@ p {
 
 #wordOutput{
 	width: 60%;
-	position: absolute;
+	1
 	margin: 0 auto;
 	display: block;
 }
@@ -96,9 +98,10 @@ p {
 .generatorcol {
 	background: linear-gradient(to bottom, #1a0315, #6217d3);
 	color: white;
-	height: 500px;
+	height: 400px;
 	margin-bottom: 3%;
 	border: 10px solid #1a0315;
+	text-align: center;
 }
 
 .workscol {
@@ -115,6 +118,12 @@ p {
 
 
 @media only screen and (max-width: 768px) {
+
+#input {
+	width: 90%;
+ 	margin: 0 auto;
+}
+
 #ipsum {
     display: block;
     line-height: 50%;
