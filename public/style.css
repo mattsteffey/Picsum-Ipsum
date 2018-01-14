@@ -24,7 +24,7 @@
 
 .titlecol {
 	background-color:;
-	text-align: center;
+	text-align: left;
 	height: 100px;
 	margin-top: 5%;
 
@@ -68,18 +68,17 @@
 
 @media only screen and (max-width: 768px) {
 #ipsum {
-        display: block;
-        line-height: 50%;
-    }
+    display: block;
+    line-height: 50%;
+ }
 
 .workscol {
-		margin-top: 10%;
-		height: 200px;
+	margin-top: 10%;
+	height: 200px;
 }
 .instructionscol{
-		margin-top: 30%;
-		height: 200px;
-
+	margin-top: 30%;
+	height: 200px;
 }
 
 .titlecol {
@@ -90,5 +89,4 @@
 .logincol {
 	background-color:;
 	height: 0px;
-
 }
