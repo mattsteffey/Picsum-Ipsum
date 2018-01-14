@@ -47,7 +47,7 @@ margin: 0 auto;
 }
 
 .instructionscol {
-	background-color: #88D317;
+	 background-image: url("gears.jpg");
 	height: 400px;
 	border: 3px solid #1a0315;
 }
