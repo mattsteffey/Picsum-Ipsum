@@ -15,6 +15,11 @@
 	font-weight: bold;
 }
 
+.top {
+	margin-left:5%;
+	margin-right:5%;
+}
+
 .titlecol {
 	background-color:;
 	text-align: left;
@@ -38,14 +43,12 @@
 	background-color: #88D317;
 	height: 400px;
 	margin-top: 5%;
-	margin-left: 5%;
 }
 
 .generatorcol {
 	background-color: #6e3667;
 	color: white;
 	height: 400px;
-	margin-top: 5%;
 	margin-bottom: 3%;
 }
 
@@ -71,13 +74,10 @@
 .workscol {
 	margin-top: 10%;
 	height: 200px;
-	margin-right: 0%;
 }
 .instructionscol{
 	margin-top: 30%;
 	height: 200px;
-	margin-left: 0%;
-
 }
 
 .titlecol {
@@ -98,6 +98,9 @@
 #title {
 	text-align: center;
 	margin-left: 0%;
+}
 
-
+.top {
+	margin-left:0%;
+	margin-right:0%;
 }
