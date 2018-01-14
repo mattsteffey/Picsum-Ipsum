@@ -40,20 +40,20 @@ a {
 
 #btn {
 	margin: 1%;
-	background: #88D317;
-    border: none;
-    color: black;
-}
-
-#copy {
 	background: white;
     border: none;
     color: black;
 }
 
-#clear {
-    margin: 1%;
+#copy {
     background: #88D317;
+    border: none;
+    color: black;
+}
+
+#clear {
+	margin: 1%;
+  	background: white;
     border: none;
     color: black;
 
