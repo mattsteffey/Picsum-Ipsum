@@ -60,6 +60,7 @@ p {
 	width: 60%;
 	position: absolute;
 	margin: 0 auto;
+	display: block;
 }
 
 .top {
