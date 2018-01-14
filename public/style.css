@@ -16,7 +16,7 @@
 }
 
 #wordOutput{
-width: 90%;
+width: 300%;
 position: absolute;
 margin: 0 auto;
 }
@@ -104,6 +104,10 @@ margin: 0 auto;
 #title {
 	text-align: center;
 	margin-left: 0%;
+}
+
+#wordOutput {
+width: 90%;
 }
 
 .top {
