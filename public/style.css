@@ -74,7 +74,7 @@ p {
 }
 
 .generatorcol {
-	background-color: #6e3667;
+	background: linear-gradient(to bottom right, #6e3667, #435353);
 	color: white;
 	height: 400px;
 	margin-bottom: 3%;
