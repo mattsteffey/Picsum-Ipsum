@@ -1,3 +1,8 @@
+h2 {\
+	text-align: center;
+	font-size: 400%;
+}
+
 #logo {
 	height: 200px;
 	display:block;
@@ -16,7 +21,7 @@
 }
 
 #wordOutput{
-	width: 300%;
+	width: 60%;
 	position: absolute;
 	margin: 0 auto;
 }
