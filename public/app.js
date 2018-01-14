@@ -50,12 +50,11 @@ btn.addEventListener('click', function() {
 
 // Renders Datamuse API Data into the text field
 function renderHTML(data) {
+  document.getElementById("wordOutput").value = "";
   var htmlString = "";
   for (i = 0; i < data.length; i++) { 
     htmlString += data[i].word + " ";
   }
-  
-  document.getElementById("wordOutput").value = "";
   ipsumOutput = htmlString;
   output.insertAdjacentHTML('beforeend', htmlString);
 }
