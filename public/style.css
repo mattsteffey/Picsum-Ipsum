@@ -5,6 +5,10 @@
     margin-left: -5%
 }
 
+#overlay {
+	width: 100%;
+	background-color: #88D31780;
+}
 
 #title {
 	font-size: 500%;
