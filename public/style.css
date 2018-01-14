@@ -3,11 +3,6 @@
 	display:block;
     float: right;
     margin-left: -5%
-    background: url('logo.png');
-}
-
-#logo:hover {
-    background: url('qr.jpg');
 }
 
 
