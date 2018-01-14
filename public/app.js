@@ -54,9 +54,10 @@ function renderHTML(data) {
   for (i = 0; i < data.length; i++) { 
     htmlString += data[i].word + " ";
   }
+  
   document.getElementById("wordOutput").value = "";
   ipsumOutput = htmlString;
-output.insertAdjacentHTML('beforeend', htmlString);
+  output.insertAdjacentHTML('beforeend', htmlString);
 }
 
 console.log('front end loaded!');
