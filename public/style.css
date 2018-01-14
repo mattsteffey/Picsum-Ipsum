@@ -14,7 +14,7 @@ p {
 	height: 200px;
 	display:block;
     float: right;
-    margin-left: -5%
+    margin-left: -10%
 }
 
 #headers {
@@ -27,7 +27,7 @@ p {
 
 #title {
 	font-size: 500%;
-	margin-left: -10%;
+	margin-left: -15%;
 	font-family: 'Montserrat', sans-serif;
 }
 
