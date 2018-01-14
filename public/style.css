@@ -15,7 +15,7 @@ p {
 }
 
 #headers {
-	font-size: 180%;
+	font-size: 150%;
 	font-weight: bold;
 	text-align: left;
 	font-family: 'Permanent Marker', cursive;
@@ -92,6 +92,9 @@ p {
     display: block;
     line-height: 50%;
  }
+
+ #headers {
+	font-size: 250%;
 
 .workscol {
 	margin-right: 0%;
