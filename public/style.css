@@ -1,7 +1,7 @@
 h2 {
 	text-align: center;
 	font-size: 400%;
-	color: #88d317;
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 
@@ -81,7 +81,7 @@ p {
 	color: white;
 	height: 400px;
 	margin-bottom: 3%;
-	border: 10px solid #6217d3;
+	border: 10px solid #1a0315;
 }
 
 .workscol {
