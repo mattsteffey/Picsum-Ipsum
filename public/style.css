@@ -38,7 +38,7 @@
 
 .instructionscol {
 	background-color: #88D317;
-	height: 200px;
+	height: 400px;
 }
 
 .generatorcol {
@@ -49,7 +49,7 @@
 
 .workscol {
 	background-color: #88D317;
-	height: 200px;
+	height: 400px;
 }
 
 .commentscol {
@@ -62,7 +62,8 @@
         display: block;
         line-height: 50%;
     }
+
 .instructionscol .workscol {
-		height: 400px;
+		height: 200px;
 }
 }
