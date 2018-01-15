@@ -4,7 +4,7 @@ var app     = express();
 var port    = process.env.PORT || 3000;
 var bodyparser = require('body-parser');
 var mongo = require('mongodb');
-var router =  require('router');
+
 //controller
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended: true}));
