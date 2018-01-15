@@ -73,8 +73,8 @@ copy.addEventListener('click', function() {
 
 //Changes title text 
 btn.addEventListener('click', function() {
-  var x = document.getElementById('input');
-  var y = document.getElementById('picsum');
+var x = document.getElementById('input');
+var y = document.getElementById('picsum');
   y.innerHTML = x.value;
 });
 
