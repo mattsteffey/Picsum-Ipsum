@@ -48,7 +48,7 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
-// Renders Datamuse API Data into the text field
+// FETCH BUTTON
 function renderHTML(data) {
   var htmlString = "";
   for (i = 0; i < data.length; i++) { 
@@ -58,7 +58,11 @@ function renderHTML(data) {
   output.insertAdjacentHTML('beforeend', htmlString);
 }
 
-console.log('front end loaded!');
+clear.addEventListener('click', function() {
+  x = document.getElementById('output');
+  x.value = "";
+});
+
 
 
 
