@@ -155,7 +155,7 @@ color: #6E3667;
 
 #i {
 	animation-name: blinker;
-    animation-duration: .7s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
