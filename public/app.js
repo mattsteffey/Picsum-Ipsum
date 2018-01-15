@@ -72,7 +72,7 @@ copy.addEventListener('click', function() {
 });
 
 btn.addEventListener('click', function() {
-  var x = document.getElementById("wordInput");
+  var x = document.getElementById('input');
   console.log(x.value);
 });
 
