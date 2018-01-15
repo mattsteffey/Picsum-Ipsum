@@ -153,13 +153,10 @@ a {
 	width: 90%;
  	margin: 0 auto;
 }
-#picsum {
-	display: inline;
-}
-#ipsum {
-    display: inline;
-    line-height: 50%;
 
+#ipsum {
+    display: block;
+    line-height: 50%;
  }
 
  #headers {
@@ -212,7 +209,6 @@ h2 {
 width: 90%;
 margin-top: 10%;
 }
-
 
 .top {
 	margin-left:0%;
