@@ -60,7 +60,7 @@ function renderHTML(data) {
 
 clear.addEventListener('click', function() {
   x = document.getElementById('output');
-  x.value = "";
+  x.value = "reset";
 });
 
 
