@@ -7,6 +7,10 @@ var mongo = require('mongodb');
 var mongoose = require('mongoose');
 
 //connect to mongoose
+var port =
+    process.env.MONGOLAB_URI ||
+    process.env.MONGOHQ_URL ||
+    'mongodb://localhost/HelloMongoose';
 mongoose.connect(port);
 
 //controller
@@ -27,9 +31,9 @@ app.get('/', pageRender);
 app.get('/privacy', privacyRender); 
 
 // start server
-app.listen(port, function() {
-  console.log('Server started on', port); 
-});
+// app.listen(port, function() {
+//   console.log('Server started on', port); 
+// });
 
 
 
