@@ -92,8 +92,8 @@ setTimeout(function(){y.innerHTML = x.value;}, 1000);
 
 setInterval(blink, 1000);
 function blink(){
-  //document.getElementById("i").style.color = "#ededed";
-  console.log('blink');
+  document.getElementById("i").style.color = "#ededed";
+  setTimeout(function(){document.getElementById("i").style.color = "black";}, 500);
 }
 
 
