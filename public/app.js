@@ -91,6 +91,7 @@ setTimeout(function(){y.innerHTML = x.value;}, 1000);
 
 
 if (screen.width >= 768) {
+document.getElementById("i").style.fontWeight = "lighter";
 setInterval(blink, 1000);
   function blink(){
     document.getElementById("i").style.color = "#ededed";
