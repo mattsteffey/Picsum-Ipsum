@@ -9,7 +9,7 @@ var userSchema = new mongoose.Schema({
 
 //makes the model + collection
 var user = mongoose.model("User", userSchema);
-user.create({ 	token: "4578345934593", {[]}
+user.create({ 	token: "4578345934593", 
 				
 });
 
