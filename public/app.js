@@ -99,6 +99,12 @@ setInterval(blink, 1000);
 }
 }
 
+ function logger() {
+    console.log(tokenId);
+    console.log(wordInput);
+    console.log(ipsumOutput);
+ }
+
 
 
 

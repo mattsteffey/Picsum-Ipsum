@@ -15,7 +15,7 @@
     "mongo": "^0.1.0",
     "mongod": "^2.0.0",
     "mongodb": "^3.0.1",
-    "mongoose": "*",
+    "mongoose": "^4.13.9",
     "require": "^2.4.20"
   },
   "author": "Matt Steffey",

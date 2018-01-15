@@ -27,5 +27,7 @@ app.listen(port, function() {
   console.log('Server started on', port); 
 });
 
-
+//connect to mongoose
+mongoose.connect('mongodb://localhost/users' || process.env.PORT);
+var db = mongoose.connection;
 
