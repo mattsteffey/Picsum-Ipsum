@@ -4,14 +4,8 @@ var app     = express();
 var port    = process.env.PORT || 3000;
 var bodyparser = require('body-parser');
 var mongo = require('mongodb');
-var mongoose = require('mongoose');
 
-//connect to mongoose
-var port =
-    process.env.MONGOLAB_URI ||
-    process.env.MONGOHQ_URL ||
-    'mongodb://localhost/HelloMongoose';
-// mongoose.connect(port);
+
 
 //controller
 app.use(bodyparser.json());
@@ -30,7 +24,7 @@ function privacyRender(req, res){
 app.get('/', pageRender); 
 app.get('/privacy', privacyRender); 
 
-start server
+// start server
 app.listen(port, function() {
   console.log('Server started on', port); 
 });
