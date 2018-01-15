@@ -154,6 +154,7 @@ color: #6E3667;
 }
 
 #i {
+	font-weight: lighter;
 }
 
 @media only screen and (max-width: 768px) {
