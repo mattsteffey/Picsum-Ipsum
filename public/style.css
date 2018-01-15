@@ -155,7 +155,7 @@ color: #6E3667;
 
 #i {
 	animation-name: blinker;
-    animation-duration: 1s;
+    animation-duration: .7s;
     animation-iteration-count: infinite;
 }
 
@@ -163,7 +163,7 @@ color: #6E3667;
 	0%{		color: #000;	}
 	49%{	color: transparent;	}
 	50%{	color: transparent;	}
-	99%{	color: transparent;	}
+	85%{	color: transparent;	}
 	100%{	color: #000;	}
 }
 
