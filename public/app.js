@@ -93,13 +93,14 @@ setTimeout(function(){y.innerHTML = x.value;}, 1000);
 
 setInterval(blinker(), 1000);
 
-function blinker() {
-  function blinkOff() {
-    document.getElementById("i").style.color = "#ededed";
-  }
-  setTimeout(function(){document.getElementById("i").style.color = "black";}, 500);
+
+function blinkOff() {
+  document.getElementById("i").style.color = "#ededed";
 }
 
+function blinkOn() {
+  document.getElementById("i").style.color = "#black";
+}
 
 
 
