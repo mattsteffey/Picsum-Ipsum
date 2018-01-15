@@ -210,6 +210,10 @@ width: 90%;
 margin-top: 10%;
 }
 
+#picsum {
+	display:inline;
+}
+
 .top {
 	margin-left:0%;
 	margin-right:0%;
