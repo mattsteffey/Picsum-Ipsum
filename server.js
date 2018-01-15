@@ -1,12 +1,15 @@
 'use strict'
 var express = require('express');
 var app     = express();
-var port    = process.env.PORT || 3000;
 var bodyparser = require('body-parser');
 var mongo = require('mongodb');
-
-//connect to mongoose
-mongoose.connect(port);
+var http = require ('http');         
+var mongoose = require ("mongoose"); 
+var uristring =
+    process.env.MONGOLAB_URI ||
+    process.env.MONGOHQ_URL ||
+    'mongodb://localhost/HelloMongoose';
+    var theport = process.env.PORT || 5000;
 
 //controller
 app.use(bodyparser.json());
