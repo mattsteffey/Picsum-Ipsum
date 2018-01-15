@@ -80,6 +80,7 @@ a {
 	margin-left: -15%;
 	padding-top:5%;
 	font-family: 'Montserrat', sans-serif;
+	display: inherit;
 }
 
 #ipsum {
