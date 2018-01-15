@@ -30,10 +30,10 @@ function privacyRender(req, res){
 app.get('/', pageRender); 
 app.get('/privacy', privacyRender); 
 
-// start server
-// app.listen(port, function() {
-//   console.log('Server started on', port); 
-// });
+start server
+app.listen(port, function() {
+  console.log('Server started on', port); 
+});
 
 
 
