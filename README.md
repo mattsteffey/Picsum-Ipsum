@@ -22,3 +22,7 @@ A description of the API as per their landing page:
 By utilizing the Facebook Javascript SDK I was able to add login functionality to my page. This links to the user's Facebook account and allows them to both like and share my app, as well as unlocks the functionality of saving their favorite ipsums, and leaving comments at the bottom of the page.
 
 
+## Stretch Goals
+Set up a database call to make the ipsum logo text cycle through the ten most recently searched words, instead of a hard-coded set.
+Utilize a database to allow users to save ipsums to a list of favorites, and give them the ability to edit words into or out of those lists.
+

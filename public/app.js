@@ -73,7 +73,7 @@ copy.addEventListener('click', function() {
 
 //Changes title text 
 btn.addEventListener('click', function() {
-document.getElementById("wordOutput").style.backgroundImage = "url(' ')";
+document.getElementById("wordOutput").style.backgroundImage = "url(' ')"; //removes qr code
 var x = document.getElementById('input');
 var y = document.getElementById('picsum');
 setTimeout(function(){y.innerHTML = "puppies";}, 100);
