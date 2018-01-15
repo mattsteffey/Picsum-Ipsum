@@ -155,8 +155,9 @@ a {
 }
 
 #ipsum {
-    display: block;
+    display: inline;
     line-height: 50%;
+    
  }
 
  #headers {
@@ -211,7 +212,7 @@ margin-top: 10%;
 }
 
 #picsum {
-	display:inline;
+	display: inline;
 }
 
 .top {
