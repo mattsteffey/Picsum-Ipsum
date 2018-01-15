@@ -9,9 +9,14 @@ var userSchema = new mongoose.Schema({
 
 //makes the model + collection
 var user = mongoose.model("User", userSchema);
-user.create({ 	token: "4578345934593",
-				word: "dog",
-				ipsum: "kennel puppy leash collar"
+user.create({ 	token: "4578345934593", {[]}
+				
 });
 
 module.exports = user;
+
+
+
+
+//word: "dog",
+// ipsum: "kennel puppy leash collar"
