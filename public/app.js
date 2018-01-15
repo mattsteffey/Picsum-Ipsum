@@ -90,12 +90,11 @@ setTimeout(function(){y.innerHTML = x.value;}, 1000);
 
 
 
-
+setInterval(blink, 1000);
 function blink(){
-  document.getElementById("i").style.color = "#ededed";
+  //document.getElementById("i").style.color = "#ededed";
   console.log('blink');
 }
-setInterval (blink(), 1000); 
 
 
 
