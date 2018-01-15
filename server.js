@@ -5,6 +5,10 @@ var port    = process.env.PORT || 3000;
 var bodyparser = require('body-parser');
 var mongo = require('mongodb');
 
+//connect to mongoose
+mongoose.connect(process.env.PORT);
+var db = mongoose.connection;
+
 //controller
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended: true}));
@@ -27,7 +31,5 @@ app.listen(port, function() {
   console.log('Server started on', port); 
 });
 
-//connect to mongoose
-mongoose.connect('mongodb://localhost/users' || process.env.PORT);
-var db = mongoose.connection;
+
 
