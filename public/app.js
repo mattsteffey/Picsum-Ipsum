@@ -91,19 +91,6 @@ setTimeout(function(){y.innerHTML = x.value;}, 1000);
 
 
 
-setInterval(blinkOff(), 1000);
-
-
-function blinkOff() {
-  document.getElementById("i").style.color = "#ededed";
-}
-
-function blinkOn() {
-  document.getElementById("i").style.color = "#black";
-}
-
-
-
 
 
 
