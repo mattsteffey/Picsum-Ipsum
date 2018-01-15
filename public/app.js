@@ -50,8 +50,6 @@ btn.addEventListener('click', function() {
 
 // Renders Datamuse API Data into the text field
 function renderHTML(data) {
-  var x = document.getElementById('wordOutput');
-  x.value = "";
   var htmlString = "";
   for (i = 0; i < data.length; i++) { 
     htmlString += data[i].word + " ";
