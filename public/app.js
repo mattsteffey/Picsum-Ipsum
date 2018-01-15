@@ -59,7 +59,7 @@ function renderHTML(data) {
 }
 
 clear.addEventListener('click', function() {
-  x = document.getElementById('output');
+  x = document.getElementById('wordOutput');
   x.value = "reset";
 });
 
