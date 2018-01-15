@@ -14,7 +14,7 @@ app.use(bodyparser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public'));
 
 function pageRender(req, res){
-	res.sendFile(__dirname + '../views/index.html'); //Renders the viewable ((index.html))
+	res.sendFile(__dirname + '/views/index.html'); //Renders the viewable ((index.html))
 }
 
 function privacyRender(req, res){
