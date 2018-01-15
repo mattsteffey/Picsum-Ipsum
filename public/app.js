@@ -75,10 +75,16 @@ copy.addEventListener('click', function() {
 btn.addEventListener('click', function() {
 var x = document.getElementById('input');
 var y = document.getElementById('picsum');
-setTimeout(function(){y.innerHTML = "puppies";}, 200);
+setTimeout(function(){y.innerHTML = "puppy";}, 100);
+setTimeout(function(){y.innerHTML = "awesome";}, 200);
+setTimeout(function(){y.innerHTML = "grandma";}, 300);
 setTimeout(function(){y.innerHTML = "kittens";}, 400);
-setTimeout(function(){y.innerHTML = "awesome";}, 600);
-  
+setTimeout(function(){y.innerHTML = "shoes";}, 500);
+setTimeout(function(){y.innerHTML = "vacation";}, 600);
+setTimeout(function(){y.innerHTML = "boxing";}, 700);
+setTimeout(function(){y.innerHTML = "photography";}, 800);
+setTimeout(function(){y.innerHTML = "groceries";}, 900);
+setTimeout(function(){y.innerHTML = "x.value";}, 1000);
 });
 
 
