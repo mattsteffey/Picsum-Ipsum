@@ -72,7 +72,7 @@ copy.addEventListener('click', function() {
 });
 
 btn.addEventListener('click', function() {
-  var x = document.getElementById("title");
+  var x = document.getElementById("picsum");
   console.log(x.innerText);
 });
 
