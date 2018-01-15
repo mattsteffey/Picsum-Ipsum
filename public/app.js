@@ -73,7 +73,7 @@ copy.addEventListener('click', function() {
 
 btn.addEventListener('click', function() {
   var x = document.getElementById("wordInput");
-  console.log(x.innerText);
+  console.log(x.value);
 });
 
 
