@@ -158,7 +158,7 @@ a {
 	display: inline;
 }
 #ipsum {
-    display: inline;
+    display: block;
     line-height: 50%;
 
  }
@@ -207,12 +207,12 @@ h2 {
 	text-align: center;
 	margin-left: 0%;
 	padding-top: 0%;
-	display:;
+	display: none;
 }
 
 #wordOutput {
-width: 90%;
-margin-top: 10%;
+	width: 90%;
+	margin-top: 10%;
 }
 
 
