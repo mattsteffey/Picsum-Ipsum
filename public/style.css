@@ -91,7 +91,7 @@ a {
 	width: 60%;
 	margin: 0 auto;
 	display: block;
-	margin-top: 10%;
+	margin-top: 3%;
 }
 
 .top {
@@ -207,6 +207,7 @@ h2 {
 
 #wordOutput {
 width: 90%;
+margin-top: 10%;
 }
 
 .top {
