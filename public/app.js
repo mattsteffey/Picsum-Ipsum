@@ -57,11 +57,18 @@ function renderHTML(data) {
   ipsumOutput = htmlString;
   output.insertAdjacentHTML('beforeend', htmlString);
 }
-
+ // CLEAR BUTTON
 clear.addEventListener('click', function() {
   x = document.getElementById('wordOutput');
   x.value = "";
 });
+
+function myFunction() {
+  var x = document.getElementById("wordOutput");
+  x.select();
+  document.execCommand("Copy");
+  alert("Copied the text: " + x.value);
+}
 
 
 
