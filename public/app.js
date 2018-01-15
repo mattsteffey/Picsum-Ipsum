@@ -62,11 +62,18 @@ clear.addEventListener('click', function() {
   x = document.getElementById('wordOutput');
   x.value = "";
 });
-
+ 
+ // COPY BUTTON
 copy.addEventListener('click', function() {
   var x = document.getElementById("wordOutput");
   x.select();
   document.execCommand("Copy");
+
+});
+
+btn.addEventListener('click', function() {
+  var x = document.getElementById("title");
+  console.log(x);
 });
 
 
