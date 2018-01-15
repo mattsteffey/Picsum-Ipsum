@@ -6,7 +6,7 @@ var bodyparser = require('body-parser');
 var mongo = require('mongodb');
 
 //connect to mongoose
-// mongoose.connect(process.env.PORT);
+mongoose.connect(port);
 
 //controller
 app.use(bodyparser.json());
