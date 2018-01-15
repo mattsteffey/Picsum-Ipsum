@@ -75,7 +75,7 @@ copy.addEventListener('click', function() {
 btn.addEventListener('click', function() {
   var x = document.getElementById('input');
   var y = document.getElementById('picsum');
-  y.innertext = x.value;
+  y.innerHTML = x.value;
 });
 
 
