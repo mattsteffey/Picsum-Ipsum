@@ -84,7 +84,7 @@ setTimeout(function(){y.innerHTML = "vacation";}, 600);
 setTimeout(function(){y.innerHTML = "boxing";}, 700);
 setTimeout(function(){y.innerHTML = "photography";}, 800);
 setTimeout(function(){y.innerHTML = "groceries";}, 900);
-setTimeout(function(){y.innerHTML = "x.value";}, 1000);
+setTimeout(function(){y.innerHTML = x.value;}, 1000);
 });
 
 
