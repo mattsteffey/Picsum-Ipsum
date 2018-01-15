@@ -11,7 +11,7 @@ var port =
     process.env.MONGOLAB_URI ||
     process.env.MONGOHQ_URL ||
     'mongodb://localhost/HelloMongoose';
-mongoose.connect(port);
+// mongoose.connect(port);
 
 //controller
 app.use(bodyparser.json());
