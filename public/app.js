@@ -73,7 +73,7 @@ copy.addEventListener('click', function() {
 
 btn.addEventListener('click', function() {
   var x = document.getElementById("title");
-  console.log(x);
+  console.log(x.innerText);
 });
 
 
