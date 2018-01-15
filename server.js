@@ -7,7 +7,6 @@ var mongo = require('mongodb');
 
 //connect to mongoose
 mongoose.connect(process.env.PORT);
-var db = mongoose.connection;
 
 //controller
 app.use(bodyparser.json());
