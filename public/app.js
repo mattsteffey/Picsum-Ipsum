@@ -91,7 +91,7 @@ setTimeout(function(){y.innerHTML = x.value;}, 1000);
 
 
 
-setInterval(blinker(), 1000);
+setInterval(blinkOff(), 1000);
 
 
 function blinkOff() {
