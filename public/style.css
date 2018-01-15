@@ -18,11 +18,6 @@ p {
 	margin-top: 5%;
 }
 
-#wordOutput {
-    resize: none;
-    -moz-box-shadow: inset 0 0 50px rgba(136, 211, 23, 1);
-	-webkit-box-shadow: inset 0 0 50px rgba(136, 211, 23, 1);
-}
 
 #bold {
 	font-weight: bold;
@@ -91,6 +86,9 @@ color: #6E3667;
 }
 
 #wordOutput{
+	resize: none;
+    -moz-box-shadow: inset 0 0 50px rgba(136, 211, 23, 1);
+	-webkit-box-shadow: inset 0 0 50px rgba(136, 211, 23, 1);
 	display:block;
 	width: 60%;
 	margin: 0 auto;
@@ -216,8 +214,9 @@ h2 {
 }
 
 #wordOutput {
-width: 90%;
-margin-top: 10%;
+	width: 90%;
+	margin-top: 10%;
+	background-image: url(" ");
 }
 
 .top {
