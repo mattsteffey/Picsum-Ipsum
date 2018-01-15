@@ -63,12 +63,12 @@ clear.addEventListener('click', function() {
   x.value = "";
 });
 
-function myFunction() {
+copy.addEventListener('click', function() {
   var x = document.getElementById("wordOutput");
   x.select();
   document.execCommand("Copy");
   alert("Copied the text: " + x.value);
-}
+});
 
 
 
