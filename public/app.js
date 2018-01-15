@@ -75,8 +75,15 @@ copy.addEventListener('click', function() {
 btn.addEventListener('click', function() {
 var x = document.getElementById('input');
 var y = document.getElementById('picsum');
+setTimeout(function(){y.innerHTML = "puppies";}, 500);
+setTimeout(function(){y.innerHTML = "kittens";}, 500);
+setTimeout(function(){y.innerHTML = "awesome";}, 500);
+  
+
+
   y.innerHTML = x.value;
 });
+
 
 
 
