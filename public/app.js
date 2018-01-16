@@ -29,15 +29,15 @@ btn.addEventListener('click', function() {
 });
 
 // FETCH BUTTON
-function renderHTML(data) {
-  var htmlString = "";
-  for (i = 0; i < data.length; i++) { 
-    data[i].charAt(0).toUpperCase() + data[i].substr(1);
-    htmlString += data[i].word + " ";
-  }
-  ipsumOutput = htmlString;
-  output.insertAdjacentHTML('beforeend', htmlString);
-}
+// function renderHTML(data) {
+//   var htmlString = "";
+//   for (i = 0; i < data.length; i++) { 
+//     data[i].charAt(0).toUpperCase() + data[i].substr(1);
+//     htmlString += data[i].word + " ";
+//   }
+//   ipsumOutput = htmlString;
+//   output.insertAdjacentHTML('beforeend', htmlString);
+// }
  // CLEAR BUTTON
 clear.addEventListener('click', function() {
   x = document.getElementById('wordOutput');
