@@ -45,7 +45,7 @@ function renderHTML(data) {
   // ipsumOutput = htmlString;
   x = htmlString.split(".");
   for (i = 0; i < x.length; i++) {
-    x[i].toUpperCase(s.charAt(0)) + s.substring(1);
+    x[i].toUpperCase();
   }
 
   output.insertAdjacentHTML('beforeend', htmlString);
