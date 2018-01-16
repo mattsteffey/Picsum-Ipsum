@@ -19,11 +19,17 @@ function privacyRender(req, res){
 	res.sendFile(__dirname + '/views/privacypolicy.htm'); //Renders the viewable ((privacypolicy.htm))
 }
 
+function googleRender(req, res){
+	res.sendFile(__dirname + '/views/google481d0b70bbb509c5.html'); //Renders the viewable ((privacypolicy.htm))
+}
+
+
 
 
 //route
 app.get('/', pageRender); 
 app.get('/privacy', privacyRender); 
+app.get('/google481d0b70bbb509c5.html')
 
 // start server
 app.listen(port, function() {
