@@ -29,7 +29,7 @@ function googleRender(req, res){
 //route
 app.get('/', pageRender); 
 app.get('/privacy', privacyRender); 
-app.get('/google481d0b70bbb509c5.html')
+app.get('/google481d0b70bbb509c5.html', googleRender);
 
 // start server
 app.listen(port, function() {
