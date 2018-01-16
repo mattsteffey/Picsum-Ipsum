@@ -30,6 +30,7 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
+
 // FETCH BUTTON
 function renderHTML(data) {
   var htmlString = "";
@@ -37,6 +38,7 @@ function renderHTML(data) {
     htmlString += data[i].word + " ";
   }
   ipsumOutput = htmlString;
+  htmlString = titleCase(htmlString);
   output.insertAdjacentHTML('beforeend', htmlString);
 }
 
