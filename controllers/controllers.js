@@ -2,11 +2,11 @@ var express = require('express');
 var db = require('../models');
 
 function pageRender(req, res){
-	res.sendFile('/views/index.html'); //Renders the viewable ((index.html))
+	res.sendFile('../views/index.html'); //Renders the viewable ((index.html))
 }
 
 function privacyRender(req, res){
-	res.sendFile(__dirname + '/views/privacypolicy.htm'); //Renders the viewable ((privacypolicy.htm))
+	res.sendFile('../views/privacypolicy.htm'); //Renders the viewable ((privacypolicy.htm))
 }
 
 //define controller ex. saveFavorite
