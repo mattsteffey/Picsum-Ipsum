@@ -1,9 +1,9 @@
 var express = require("express");
-var route = express.Router();
+var router = express.Router();
 var userControllers = require('../controllers/controllers.js');
 var app = express();
 
-app.route('/', pageRender)
+app.route('/')
  .get(userControllers.pageRender)
 	
 app.route('/privacy')
