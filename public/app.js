@@ -30,7 +30,7 @@ btn.addEventListener('click', function() {
 
 // FETCH BUTTON
 function renderHTML(data) {
-  var htmlString = x[0].charAt(0).toUpperCase();                                       
+  var htmlString = "" + x[0].charAt(0).toUpperCase();                                      
       for (i = 0; i < data.length; i++) {
          if (i%(Math.floor((Math.random() * 10) + 3)) == 0 && i>1) { 
             htmlString += data[i].word + ". ";}                  
