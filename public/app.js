@@ -32,10 +32,10 @@ btn.addEventListener('click', function() {
 function renderHTML(data) {
   var htmlString = "";
   for (i = 0; i < data.length; i++) { 
-    data[i].charAt(0).toUpperCase() + data[i].substr(1);
     htmlString += data[i].word + " ";
   }
   ipsumOutput = htmlString;
+  htmlString.replace(/\b\w/g, l => l.toUpperCase());
   output.insertAdjacentHTML('beforeend', htmlString);
 }
  // CLEAR BUTTON
