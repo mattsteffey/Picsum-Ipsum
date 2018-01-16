@@ -33,16 +33,17 @@ btn.addEventListener('click', function() {
 // FETCH BUTTON
 function renderHTML(data) {
   var htmlString = "";                                       
-  for (i = 0; i < data.length; i++) {
-  if (i%(Math.floor((Math.random() * 7) + 3)) == 0 && i>1) { 
-    htmlString += data[i].word + ". "; 
-  }                  
-  else {htmlString += data[i].word + " "; 
-  }
+    for (i = 0; i < data.length; i++) {
+       if (i%(Math.floor((Math.random() * 7) + 3)) == 0 && i>1) { 
+          htmlString += data[i].word + ". "; 
+       }                  
+       else {
+          htmlString += data[i].word + " "; 
+       }
+    }
 
-
-}
-  ipsumOutput = htmlString;
+  // ipsumOutput = htmlString;
+  html.split(".");
   output.insertAdjacentHTML('beforeend', htmlString);
 }
 
