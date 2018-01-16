@@ -30,30 +30,18 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
-
 // FETCH BUTTON
 function renderHTML(data) {
-  var htmlString = "";
-  for (i = 0; i < data.length; i++) { 
-    htmlString += data[i].word + " ";
+  var htmlString = "";                                        //defines a var that will be filled
+  for (i = 0; i < data.length; i++) {
+  if (i%7 == 0){ htmlString += data[i].word + ". "; }                        //adds each word into the string and adds a space after
+  else {htmlString += data[i].word + " "; }
+
+
   }
   ipsumOutput = htmlString;
-  htmlString = titleCase(htmlString);
   output.insertAdjacentHTML('beforeend', htmlString);
 }
-
-function titleCase(str) {
-     words = str.toLowerCase().split(' ');
-
-     for(var i = 0; i < words.length; i++) {
-          var letters = words[i].split('');
-          letters[0] = letters[0].toUpperCase();
-          words[i] = letters.join('');
-     }
-     return words.join(' ');
-}
-
-
 
 
 
