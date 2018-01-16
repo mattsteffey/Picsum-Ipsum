@@ -41,13 +41,16 @@ function renderHTML(data) {
           htmlString += data[i].word + " "; 
        }
     }
-}
+
 
   // ipsumOutput = htmlString;
-  x = htmlString.split(".");
-  for (i = 0; i < x.length; i++) {
-    if (i=1) {console.log(x[i].charAt(0).toUpperCase() + x[i].slice(1));}
-    else {console.log(x[i].charAt(1).toUpperCase() + x[i].slice(2));}
+  
+ var z = htmlString.split(".");
+  for (i = 0; i < z.length; i++) {
+    if (i=0){console.log(z[i].charAt(0).toUpperCase() + z[i].slice(1));}
+    else {console.log(z[i].charAt(1).toUpperCase() + z[i].slice(2));}
+  }
+
   output.insertAdjacentHTML('beforeend', htmlString);
 }
 
