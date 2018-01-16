@@ -64,7 +64,7 @@
         </div>
   
   </div>
-        <div class="commentcol col-md-12"><center><div class="g-signin2" data-onsuccess="onSignIn"></div><a href="#" onclick="signOut();">Sign out</a></center>
+        <div class="commentcol col-md-12" id="commentcol"><center><div class="g-signin2" data-onsuccess="onSignIn"></div><a href="#" onclick="signOut();">Sign out</a></center>
 
 <script src="https://apis.google.com/js/plusone.js"></script>
 <div id="comments"></div>
@@ -79,7 +79,7 @@
       });
    }
 
-   var containerWidth = document.getElementById('ContainerID').offsetWidth;
+   var containerWidth = document.getElementById('commentcol').offsetWidth;
    CommentBox(containerWidth);
 
 </script>
