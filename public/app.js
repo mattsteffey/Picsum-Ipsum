@@ -38,9 +38,10 @@ function renderHTML(data) {
        }
 
       x = htmlString.split(".");
-      for (i = 0; i < x.length; i++) 
-        if (i=0) {x[i].charAt(1).toUpperCase() + x[i].substr(2);}
-        else {x[i].charAt(0).toUpperCase() + x[i].substr(1);}
+      for (i = 0; i < x.length; i++) {
+        x[i].charAt(0).toUpperCase() + x[i].substr(1);
+      }
+      console.log(htmlString);
   // output.insertAdjacentHTML('beforeend', htmlString);
 }
 
