@@ -39,9 +39,9 @@ function renderHTML(data) {
 
       x = htmlString.split(".");
       for (i = 0; i < x.length; i++) {
-        x[i].charAt(0).toUpperCase() + x[i].substr(1);
+        console.log(x[i].charAt(0).toUpperCase() + x[i].substr(1));
       }
-      console.log(htmlString);
+      
   // output.insertAdjacentHTML('beforeend', htmlString);
 }
 
