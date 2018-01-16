@@ -32,9 +32,9 @@ btn.addEventListener('click', function() {
 
 // FETCH BUTTON
 function renderHTML(data) {
-  var htmlString = "";                                        //defines a var that will be filled
+  var htmlString = "";                                       
   for (i = 0; i < data.length; i++) {
-  if (i%7 == 0){ htmlString += data[i].word + ". "; }                        //adds each word into the string and adds a space after
+  if (i%7 == 0 && i>1) { htmlString += data[i].word + ". "; }                  
   else {htmlString += data[i].word + " "; }
 
 
