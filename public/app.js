@@ -30,7 +30,7 @@ btn.addEventListener('click', function() {
 
 // FETCH BUTTON
 function renderHTML(data) {
-  var htmlString = "";                                       
+  var htmlString = x[0].charAt(0).toUpperCase();                                       
       for (i = 0; i < data.length; i++) {
          if (i%(Math.floor((Math.random() * 10) + 3)) == 0 && i>1) { 
             htmlString += data[i].word + ". ";}                  
@@ -39,14 +39,14 @@ function renderHTML(data) {
 
       x = htmlString.split(".");
       for (i = 0; i < x.length; i++) {
-      output.insertAdjacentHTML('beforeend', x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". ");
+      output.insertAdjacentHTML('beforeend', + x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". ");
       }
       
   // output.insertAdjacentHTML('beforeend', htmlString);
 }
 
 
-
+x[0].charAt(0).toUpperCase();
 
 
  // CLEAR BUTTON
