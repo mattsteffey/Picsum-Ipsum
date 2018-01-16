@@ -47,7 +47,6 @@ function renderHTML(data) {
 }
 
 
-x[0].charAt(0).toUpperCase();
 
 
  // CLEAR BUTTON
