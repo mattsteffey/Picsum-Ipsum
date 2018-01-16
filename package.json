@@ -10,7 +10,8 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "bootstrap": "*",
-    "express": "*",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
     "mongo": "^0.1.0",
     "mongod": "^2.0.0",
     "mongodb": "^3.0.1",

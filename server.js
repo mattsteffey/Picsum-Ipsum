@@ -3,6 +3,7 @@ var express = require('express');
 var app     = express();
 var port    = process.env.PORT || 3000;
 var bodyparser = require('body-parser');
+var mongo = require('mongodb');
 
 
 
@@ -10,6 +11,7 @@ var bodyparser = require('body-parser');
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public'));
+
 function pageRender(req, res){
 	res.sendFile(__dirname + '/views/index.html'); //Renders the viewable ((index.html))
 }
