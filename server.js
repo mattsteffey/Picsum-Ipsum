@@ -19,6 +19,8 @@ function privacyRender(req, res){
 	res.sendFile(__dirname + '/views/privacypolicy.htm'); //Renders the viewable ((privacypolicy.htm))
 }
 
+
+
 //route
 app.get('/', pageRender); 
 app.get('/privacy', privacyRender); 
