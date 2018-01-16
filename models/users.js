@@ -1,22 +1,9 @@
-// const mongoose = require('mongoose');
-// mongoose.connect('mongodb://localhost/testMongoose');
+var mongoose = require('mongoose');
 
-// var userSchema = new mongoose.Schema({
-// 	token: {type:String, required:true},
-// 	word: String,
-// 	ipsum: String
-// });
+var UsersSchema = new mongoose.Schema({
+  	user: String,
+});
 
-// //makes the model + collection
-// var user = mongoose.model("User", userSchema);
-// user.create({ 	token: "4578345934593", 
-				
-// });
+mongoose.model('User', UsersSchema); 
 
-// module.exports = user;
-
-
-
-
-//word: "dog",
-// ipsum: "kennel puppy leash collar"
+module.exports = User;
