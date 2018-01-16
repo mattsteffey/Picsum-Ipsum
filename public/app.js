@@ -14,6 +14,8 @@ var ipsumOutput = "";
   }
 //
 
+
+
 // Button to fetch API Data from Datamuse
 btn.addEventListener('click', function() {
 	var x = document.getElementById('input');
@@ -33,11 +35,29 @@ function renderHTML(data) {
   var htmlString = "";
   for (i = 0; i < data.length; i++) { 
     data[i].charAt(0).toUpperCase() + data[i].substr(1);
-    htmlString += data[i].word + " ";
+    htmlString += data[i].word + " "; 
   }
   ipsumOutput = htmlString;
+  htmlString = titleCase(htmlString);
   output.insertAdjacentHTML('beforeend', htmlString);
 }
+
+function titleCase(str) {
+     words = str.toLowerCase().split(' ');
+
+     for(var i = 0; i < words.length; i++) {
+          var letters = words[i].split('');
+          letters[0] = letters[0].toUpperCase();
+          words[i] = letters.join('');
+     }
+     return words.join(' ');
+}
+
+
+
+
+
+
  // CLEAR BUTTON
 clear.addEventListener('click', function() {
   x = document.getElementById('wordOutput');
