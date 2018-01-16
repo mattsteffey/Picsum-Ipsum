@@ -1,8 +1,8 @@
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 
-var UsersSchema = mongoose.Schema({
-  	token: String,
-});
+// var UsersSchema = mongoose.Schema({
+//   	token: String,
+// });
  
 
-module.exports = mongoose.model('User', UsersSchema); 
+// module.exports = mongoose.model('User', UsersSchema); 
