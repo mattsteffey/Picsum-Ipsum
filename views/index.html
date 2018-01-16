@@ -68,16 +68,23 @@
           <center>
             <div class="g-signin2" data-onsuccess="onSignIn"></div><a href="#" onclick="signOut();">Sign out</a>
 
-        <script src="https://apis.google.com/js/plusone.js"></script>
-        <div id="comments"></div>
-        <script>
-          gapi.comments.render('comments', {
-            href: window.location,
-            width: '100%',
-            first_party_property: 'BLOGGER',
-            view_type: 'FILTERED_POSTMOD'
-            });
-        </script>
+     <script src="https://apis.google.com/js/plusone.js"></script>
+      <div id="comments"></div>
+      <script async defer>
+
+            function CommentBox (commentsWidth) {
+               gapi.comments.render('comments', {
+               href: window.location,
+               width: commentsWidth,
+               first_party_property: 'BLOGGER',
+               view_type: 'FILTERED_POSTMOD'
+                });
+             }
+
+             var containerWidth = document.getElementById('commentcol').offsetWidth;
+             CommentBox(containerWidth);
+  </script>
+          
         </center>
 
         </div> 
