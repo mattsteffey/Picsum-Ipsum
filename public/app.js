@@ -1,9 +1,7 @@
 var output = document.getElementById('wordOutput');
 var btn = document.getElementById('btn');
 //var mongo = require('mongodb').MongoClient; //cant use this on front end
-var tokenId = "";
-var wordInput = "";
-var ipsumOutput = "";
+
 
 // GOOGLEDATA
   function signOut() {
@@ -40,9 +38,7 @@ function renderHTML(data) {
        }
 
       x = htmlString.split(".");
-       for (i = 0; i < x.length; i++) {console.log(x);}
-     
-
+      for (i = 0; i < x.length; i++) {[i].charAt(0).toUpperCase() + data[i].substr(1);}
   // output.insertAdjacentHTML('beforeend', htmlString);
 }
 
@@ -91,12 +87,6 @@ setInterval(blink, 1000);
     setTimeout(function(){document.getElementById("i").style.color = "black";}, 500);
 }
 }
-
- function logger() {
-    console.log(tokenId);
-    console.log(wordInput);
-    console.log(ipsumOutput);
- }
 
 
 
