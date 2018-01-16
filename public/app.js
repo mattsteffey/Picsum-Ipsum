@@ -33,23 +33,19 @@ btn.addEventListener('click', function() {
 // FETCH BUTTON
 function renderHTML(data) {
   var htmlString = "";                                       
-    for (i = 0; i < data.length; i++) {
-       if (i%(Math.floor((Math.random() * 10) + 3)) == 0 && i>1) { 
-          htmlString += data[i].word + ". "; 
-       }                  
-       else {
-          htmlString += data[i].word + " "; 
-       }
-    }
-
-
-  // ipsumOutput = htmlString;
-  
- var z = htmlString.split(".");
-  for (i = 0; i < z.length; i++) {
-    if (i=0){console.log(z[i].charAt(0).toUpperCase() + z[i].slice(1));}
-    else {console.log(z[i].charAt(1).toUpperCase() + z[i].slice(2));}
-  }
+      for (i = 0; i < data.length; i++) {
+         if (i%(Math.floor((Math.random() * 10) + 3)) == 0 && i>1) { 
+            htmlString += data[i].word + ". "; 
+         }                  
+         else {
+           htmlString += data[i].word + " "; 
+         }
+     }
+      x = htmlString.split(".");
+      for (i = 0; i < x.length; i++) {
+          if (i=0){console.log(x[i].charAt(0).toUpperCase() + x[i].slice(1));}
+          else {console.log(x[i].charAt(1).toUpperCase() + x[i].slice(2));}
+          }
 
   output.insertAdjacentHTML('beforeend', htmlString);
 }
