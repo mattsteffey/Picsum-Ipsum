@@ -11,7 +11,7 @@ app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public'));
 
-app.routes = require('./config/routes');
+var routes = require('./config/routes');
 app.use(routes);
 
 // start server
