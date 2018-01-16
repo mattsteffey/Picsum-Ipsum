@@ -34,11 +34,9 @@ btn.addEventListener('click', function() {
 function renderHTML(data) {
   var htmlString = "";
   for (i = 0; i < data.length; i++) { 
-    data[i].charAt(0).toUpperCase() + data[i].substr(1);
-    htmlString += data[i].word + " "; 
+    htmlString += data[i].word + " ";
   }
   ipsumOutput = htmlString;
-  htmlString = titleCase(htmlString);
   output.insertAdjacentHTML('beforeend', htmlString);
 }
 
