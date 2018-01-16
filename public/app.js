@@ -35,7 +35,7 @@ function renderHTML(data) {
   var htmlString = "";                                       
   for (i = 0; i < data.length; i++) {
   if (i%(Math.floor((Math.random() * 7) + 3)) == 0 && i>1) { 
-    htmlString += (data[i].word.charAt(0).toUpperCase() + string.slice(1)) + ". "; 
+    htmlString += data[i].word.charAt(0).toUpperCase() + string.slice(1) + ". "; 
   }                  
   else {htmlString += data[i].word + " "; 
   }
