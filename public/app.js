@@ -34,21 +34,20 @@ btn.addEventListener('click', function() {
 function renderHTML(data) {
   var htmlString = "";                                       
     for (i = 0; i < data.length; i++) {
-       if (i%(Math.floor((Math.random() * 7) + 3)) == 0 && i>1) { 
+       if (i%(Math.floor((Math.random() * 10) + 3)) == 0 && i>1) { 
           htmlString += data[i].word + ". "; 
        }                  
        else {
           htmlString += data[i].word + " "; 
        }
     }
-
+}
 
   // ipsumOutput = htmlString;
   x = htmlString.split(".");
   for (i = 0; i < x.length; i++) {
-    console.log(x[i].charAt(1).toUpperCase() + x[i].slice(2));
-  }
-
+    if (i=0) {console.log(x[i].charAt(0).toUpperCase() + x[i].slice(1));}
+    else {console.log(x[i].charAt(1).toUpperCase() + x[i].slice(2));}
   output.insertAdjacentHTML('beforeend', htmlString);
 }
 
