@@ -38,17 +38,16 @@ function renderHTML(data) {
             htmlString += data[i].word + ". "; 
          }                  
          else {
-          htmlString += data[i].word + " "; 
+            htmlString += data[i].word + " "; 
          }
+      x = htmlString.split(".");
+      for (i = 0; i < x.length; i++) {
+          if (i=0){console.log(x[i].charAt(0).toUpperCase() + x[i].slice(1));}
+          else {console.log(x[i].charAt(1).toUpperCase() + x[i].slice(2));}
+        }
      }
 
-      // x = htmlString.split(".");
-      // for (i = 0; i < x.length; i++) {
-      //     if (i=0){console.log(x[i].charAt(0).toUpperCase() + x[i].slice(1));}
-      //     else {console.log(x[i].charAt(1).toUpperCase() + x[i].slice(2));}
-      //   }
-
-  output.insertAdjacentHTML('beforeend', htmlString);
+  // output.insertAdjacentHTML('beforeend', htmlString);
 }
 
 
