@@ -43,7 +43,7 @@ function renderHTML(data) {
     }
 
   // ipsumOutput = htmlString;
-  html.split(".");
+  htmlString.split(".");
   output.insertAdjacentHTML('beforeend', htmlString);
 }
 
