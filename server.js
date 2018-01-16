@@ -5,12 +5,14 @@ var port    = process.env.PORT || 3000;
 var bodyparser = require('body-parser');
 var mongo = require('mongodb');
 
-app.routes = require('./config/routes');
-app.use(routes);
+
 
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/public'));
+
+app.routes = require('./config/routes');
+app.use(routes);
 
 // start server
 app.listen(port, function() {
