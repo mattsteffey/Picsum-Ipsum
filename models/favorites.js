@@ -1,10 +1,8 @@
 var mongoose = require('mongoose');
 
-var FavoritesSchema = new mongoose.Schema({
+var FavoritesSchema = mongoose.Schema({
   	word: String,
  	ipsum: String, 
 });
 
-mongoose.model('Favorite', FavoritesSchema); 
-
-module.exports = Favorite;
+module.exports = mongoose.model('Favorite', FavoritesSchema); 
