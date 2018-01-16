@@ -1,17 +1,10 @@
+
 'use strict'
 var express = require('express');
 var app     = express();
 var port    = process.env.PORT || 3000;
 var bodyparser = require('body-parser');
 var mongo = require('mongodb');
-
-//route
-app.get('/', pageRender); 
-app.get('/privacy', privacyRender); 
-
-var routes = require('./config/routes');
-app.use(routes);
-
 
 //controller
 app.use(bodyparser.json());
@@ -26,11 +19,11 @@ function privacyRender(req, res){
 	res.sendFile(__dirname + '/views/privacypolicy.htm'); //Renders the viewable ((privacypolicy.htm))
 }
 
+//route
+app.get('/', pageRender); 
+app.get('/privacy', privacyRender); 
 
 // start server
 app.listen(port, function() {
   console.log('Server started on', port); 
 });
-
-
-
