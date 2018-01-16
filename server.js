@@ -20,7 +20,8 @@ function privacyRender(req, res){
 }
 
 function googleRender(req, res){
-	res.sendFile(__dirname + '/views/google481d0b70bbb509c5.html'); //Renders the viewable ((privacypolicy.htm))
+	res.sendFile(__dirname + '/views/google481d0b70bbb509c5.html'); //GOOGLE AUTH
+	//403699942499-shndkteujoaf66ikpkc51to9vojs90jn.apps.googleusercontent.com
 }
 
 

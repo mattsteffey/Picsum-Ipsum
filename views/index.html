@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="google-signin-client_id" content="403699942499-shndkteujoaf66ikpkc51to9vojs90jn.apps.googleusercontent.com">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />
   	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   	<!-- Bootstrap CDN -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<!-- style.css -->
+	<!-- STYLE.css -->
  	 <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- FONTS -->
    <link href="https://fonts.googleapis.com/css?family=Montserrat|Permanent+Marker" rel="stylesheet">
+   <!-- GOOGLE AUTH -->
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
 	<title>Picsum Ipsum</title>
 </head>
 <body>
@@ -59,7 +64,7 @@
         </div>
   
   </div>
-        <div class="commentcol col-md-12"><center><div class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="false"></div></center><h1><div class="fb-comments" data-order-by="reverse_time" data-href="https://picsumipsum.herokuapp.com/" data-width="100%" data-numposts="10"></div></h1></div> 
+        <div class="commentcol col-md-12"><center><div class="g-signin2" data-onsuccess="onSignIn"></div></center><h1><div class="fb-comments" data-order-by="reverse_time" data-href="https://picsumipsum.herokuapp.com/" data-width="100%" data-numposts="10"></div></h1></div> 
         
     </div>
 </div>
