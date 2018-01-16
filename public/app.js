@@ -37,12 +37,11 @@ function renderHTML(data) {
          if (i%(Math.floor((Math.random() * 10) + 3)) == 0 && i>1) { 
             htmlString += data[i].word + ". ";}                  
          else {htmlString += data[i].word + " ";}
+       }
 
       x = htmlString.split(".");
-       for (i = 0; i < x.length; i++) {
-        console.log(x);
-        }
-     }
+       for (i = 0; i < x.length; i++) {console.log(x);}
+     
 
   // output.insertAdjacentHTML('beforeend', htmlString);
 }
