@@ -32,6 +32,7 @@ btn.addEventListener('click', function() {
 function renderHTML(data) {
   var htmlString = "";
   for (i = 0; i < data.length; i++) { 
+    data[i].charAt(0).toUpperCase() + data[i].substr(1);
     htmlString += data[i].word + " ";
   }
   ipsumOutput = htmlString;
@@ -87,5 +88,21 @@ setInterval(blink, 1000);
 
 
 
+//generate a random number between 5 & 10
+data[i].charAt(0).toUpperCase() + data[i].substr(1);
+
+
+
+
+
+// FETCH BUTTON
+// function renderHTML(data) {
+//   var htmlString = "";
+//   for (i = 0; i < data.length; i++) { 
+//     htmlString += data[i].word + " ";
+//   }
+//   ipsumOutput = htmlString;
+//   output.insertAdjacentHTML('beforeend', htmlString);
+// }
 
 
