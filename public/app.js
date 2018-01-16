@@ -31,13 +31,14 @@ btn.addEventListener('click', function() {
 // FETCH BUTTON
 function renderHTML(data) {
   var htmlString = "";                                       
-      for (i = 0; i < data.length; i++) {
+      for (i = 1; i < data.length; i++) {
          if (i%(Math.floor((Math.random() * 10) + 3)) == 0 && i>1) { 
             htmlString += data[i].word + ". ";}                  
          else {htmlString += data[i].word + " ";}
        }
 
       x = htmlString.split(".");
+      output.insertAdjacentHTML('beforeend', x[0].charAt(0).toUpperCase());
       for (i = 1; i < x.length; i++) {
       output.insertAdjacentHTML('beforeend', x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". ");
       }
