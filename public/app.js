@@ -42,19 +42,11 @@ function renderHTML(data) {
        }
     }
 
-function capitalizeFirstLetter() {
-    string.charAt(0).toUpperCase() + string.slice(1);
-}
-
-function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
 
   // ipsumOutput = htmlString;
   x = htmlString.split(".");
   for (i = 0; i < x.length; i++) {
-  y = x[i].charAt(0).toUpperCase() + string.slice(1);
+  y = x[i].charAt(0).toUpperCase() + x[i].slice(1);
   console.log(y);
   }
 
