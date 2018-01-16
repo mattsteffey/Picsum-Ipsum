@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 
 var UsersSchema = new mongoose.Schema({
-  	user: String,
+  	token: String,
 });
 
 mongoose.model('User', UsersSchema); 
