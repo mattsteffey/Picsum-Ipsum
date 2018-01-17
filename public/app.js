@@ -51,7 +51,7 @@ function renderHTML(data) {
  // CLEAR BUTTON
 clear.addEventListener('click', function() {
   x = document.getElementById('wordOutput');
-  x.value = "";
+  x.value = "clearing...";
 });
  
  // COPY BUTTON
