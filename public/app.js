@@ -36,17 +36,12 @@ function renderHTML(data) {
             htmlString += data[i].word + ". ";}                  
          else {htmlString += data[i].word + " ";}
        }
-
       x = htmlString.split(".");
       for (i = 1; i < x.length; i++) {
       output.insertAdjacentHTML('beforeend', x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". ");
       }
-function cutter() {
-  x = document.getElementById('wordOutput').value;
-  x.substr(3);
-
-  // output.insertAdjacentHTML('beforeend', htmlString);
-}
+  htmlString.slice(0, -3);
+  
 }
 
 
