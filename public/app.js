@@ -41,6 +41,10 @@ function renderHTML(data) {
       for (i = 1; i < x.length; i++) {
       output.insertAdjacentHTML('beforeend', x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". ");
       }
+  function slicer() {
+    htmlString.slice(0, -2);
+    htmlString += '.';
+  }
       
   // output.insertAdjacentHTML('beforeend', htmlString);
 }
