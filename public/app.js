@@ -42,7 +42,7 @@ function renderHTML(data) {
       output.insertAdjacentHTML('beforeend', x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". ");
       }
 
-  (wordOutput.value).slice(0, -2);
+  (getElementById('wordOutput').value).slice(0, -2);
       
   // output.insertAdjacentHTML('beforeend', htmlString);
 }
