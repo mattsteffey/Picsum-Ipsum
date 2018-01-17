@@ -41,15 +41,13 @@ function renderHTML(data) {
       for (i = 1; i < x.length; i++) {
       output.insertAdjacentHTML('beforeend', x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". ");
       }
+function cutter() {
+  x = document.getElementById('wordOutput').value;
+  x.substr(3);
 
-  words = document.getElementById('wordOutput');
-  y = words.innerText;
-  z = substr(3);
-  words.insertAdjacentHTML('beforeend', '.');
-      
   // output.insertAdjacentHTML('beforeend', htmlString);
 }
-
+}
 
 
 
