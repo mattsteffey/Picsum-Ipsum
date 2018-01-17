@@ -32,7 +32,7 @@ btn.addEventListener('click', function() {
 function renderHTML(data) {
   var htmlString = "";                                       
       for (i = 1; i < data.length; i++) {
-         if (i%(Math.floor((Math.random() * 12) + 6)) == 0 && i>1) { 
+         if (i%(Math.floor((Math.random() * 12) + 7)) == 0 && i>1) { 
             htmlString += data[i].word + ". ";}                  
          else {htmlString += data[i].word + " ";}
        }
