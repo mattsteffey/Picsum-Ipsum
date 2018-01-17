@@ -44,7 +44,8 @@ function renderHTML(data) {
 
   words = document.getElementById('wordOutput');
   y = words.value;
-  y.slice(0, -2);
+  y.slice(0, -3);
+  y += '.';
       
   // output.insertAdjacentHTML('beforeend', htmlString);
 }
