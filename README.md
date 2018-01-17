@@ -1,7 +1,7 @@
 # Picsum Ipsum
 ### Heroku Link: https://picsumipsum.herokuapp.com/
 ## Wireframe/Mockups:
-### Version 2.0 (Bootstrap Stretch Goals)
+### Version 2.0 (Bootstrap)
 #### Browser Window (large)
 ![alt text](https://github.com/mattsteffey/Picsum-Ipsum/blob/master/extras/large.png?raw=true)
 #### Tablet (medium)
@@ -18,8 +18,8 @@ Users will be able to generate ipsum placeholder text based off of any word that
 This API will be the only one used in this project. 
 A description of the API as per their landing page:
 > The Datamuse API is a word-finding query engine for developers. You can use it in your apps to find words that match a given set of constraints and that are likely in a given context. You can specify a wide variety of constraints on meaning,  spelling, sound, and vocabulary in your queries, in any combination.
-### Facebook API: https://developers.facebook.com/docs/
-By utilizing the Facebook Javascript SDK I was able to add login functionality to my page. This links to the user's Facebook account and allows them to both like and share my app, as well as unlocks the functionality of saving their favorite ipsums, and leaving comments at the bottom of the page.
+### Google API: https://developers.google.com/apis-explorer/
+By utilizing the Google API I was able to add login functionality to my page. This links to the user's Google account and allows them to comment straight onto my home page. The goal is eventually get the functionality fleshed out so users can save and edit their favorite ipsums for later use.
 
 
 ## Stretch Goals
