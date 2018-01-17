@@ -86,6 +86,25 @@
   </script>
 
   <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+<br>
+<script src="https://apis.google.com/js/plusone.js"></script>
+<div id="comments"></div>
+<script async defer>
+
+   function CommentBox (commentsWidth) {
+      gapi.comments.render('comments', {
+     href: window.location,
+     width: commentsWidth,
+     first_party_property: 'BLOGGER',
+     view_type: 'FILTERED_POSTMOD'
+      });
+   }
+
+   var containerWidth = document.getElementById('ContainerID').offsetWidth;
+   CommentBox(containerWidth);
+
+</script>
+
 </center>
 
 </div> 
