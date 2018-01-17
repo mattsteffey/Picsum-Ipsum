@@ -64,30 +64,34 @@
         </div>
   
   </div>
-<!--         <div class="commentcol col-md-12" id="commentcol"><center><div class="g-signin2" data-onsuccess="onSignIn"></div><a href="#" onclick="signOut();">Sign out</a></center>
-
-<script src="https://apis.google.com/js/plusone.js"></script>
-<div id="comments"></div>
-<script async defer>
-
-   function CommentBox (commentsWidth) {
-      gapi.comments.render('comments', {
-     href: window.location,
-     width: commentsWidth,
-     first_party_property: 'BLOGGER',
-     view_type: 'FILTERED_POSTMOD'
+        <div class="commentcol col-md-12" id="commentcol"><center><div id="my-signin2"></div>
+  <script>
+    function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
       });
-   }
+    }
+  </script>
 
-   var containerWidth = document.getElementById('commentcol').offsetWidth;
-   CommentBox(containerWidth);
-
-</script>
+  <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</center>
 
 </div> 
         
 
- -->
+
 
 
 
