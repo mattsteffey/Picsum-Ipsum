@@ -40,7 +40,7 @@ function renderHTML(data) {
       for (i = 1; i < x.length; i++) {
       output.insertAdjacentHTML('beforeend', x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". ");
       }
-  htmlString.slice(0, -3);
+  (output.value).slice(0, -3);
   
 }
 
