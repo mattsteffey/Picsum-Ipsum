@@ -21,8 +21,15 @@ A description of the API as per their landing page:
 ### Google API: https://developers.google.com/apis-explorer/
 By utilizing the Google API I was able to add login functionality to my page. This links to the user's Google account and allows them to comment straight onto my home page. The goal is eventually get the functionality fleshed out so users can save and edit their favorite ipsums for later use.
 
+## Technologies Utilized
+- HTML, CSS, JS, jQuery
+- Bootstrap
+- Google Authentication API
+- Node, Express, Mongo
+- Github & Heroku
 
-## Stretch Goals
+
+## Going Forward
 Set up a database call to make the ipsum logo text cycle through the ten most recently searched words, instead of a hard-coded set.
 Utilize a database to allow users to save ipsums to a list of favorites, and give them the ability to edit words into or out of those lists.
 
