@@ -15,13 +15,13 @@ var btn = document.getElementById('btn');
 
 
 // Button to fetch API Data from Datamuse
-btn.addEventListener('click', function() {
-	var x = document.getElementById('input');
-	var ourRequest = new XMLHttpRequest();
-	ourRequest.open('GET', 'https://api.datamuse.com/words?rel_trg=' + x.value);
-  wordInput = x.value; 
+btn.addEventListener('click', function() {   //Adds event listener to the fetch button
+	var x = document.getElementById('input'); // Grabs the value of the input box
+	var ourRequest = new XMLHttpRequest();  // XML Request
+	ourRequest.open('GET', 'https://api.datamuse.com/words?rel_trg=' + x.value); // Adds the input value to the api endpoint
+  wordInput = x.value;  
 	ourRequest.onload = function() {
-		var ourData = JSON.parse(ourRequest.responseText);
+		var ourData = JSON.parse(ourRequest.responseText); 
 		renderHTML(ourData);
 
 	};
@@ -33,15 +33,15 @@ btn.addEventListener('click', function() {
 
 // FETCH BUTTON
 function renderHTML(data) {
-  var htmlString = "";                                       
+  var htmlString = "";                                  //blank variable string calld htmlString      
       for (i = 1; i < data.length; i++) {
-         if (i%(Math.floor((Math.random() * 12) + 7)) == 0 && i>1) {     
-            htmlString += data[i].word + ". ";}                  
+         if (i%(Math.floor((Math.random() * 12) + 7)) == 0 && i>1) {     //runs a for loop that grabs a random number of words
+            htmlString += data[i].word + ". ";}    //adds a period at the end of that random word set              
          else {htmlString += data[i].word + " ";}
        }
-      x = htmlString.split(".");
+      x = htmlString.split("."); //splits the strings based around ends of sentences
       for (i = 1; i < x.length; i++) {
-      output.insertAdjacentHTML('beforeend', x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". ");
+      output.insertAdjacentHTML('beforeend', x[i].charAt(1).toUpperCase() + x[i].substr(2)+ ". "); //capitalizes the words after the period
       }
   output.value = output.value.slice(0, -3) + '.'; 
   
@@ -66,9 +66,9 @@ copy.addEventListener('click', function() {
 //Changes title text 
 btn.addEventListener('click', function() {
 document.getElementById("wordOutput").style.backgroundImage = "url(' ')"; //removes qr code
-var x = document.getElementById('input');
+var x = document.getElementById('input'); 
 var y = document.getElementById('picsum');
-setTimeout(function(){y.innerHTML = "puppies";}, 100);
+setTimeout(function(){y.innerHTML = "puppies";}, 100); //hardcoded text swap words
 setTimeout(function(){y.innerHTML = "awesome";}, 200);
 setTimeout(function(){y.innerHTML = "grandma";}, 300);
 setTimeout(function(){y.innerHTML = "computer";}, 400);
@@ -77,7 +77,7 @@ setTimeout(function(){y.innerHTML = "vacation";}, 600);
 setTimeout(function(){y.innerHTML = "jungle";}, 700);
 setTimeout(function(){y.innerHTML = "photography";}, 800);
 setTimeout(function(){y.innerHTML = "groceries";}, 900);
-setTimeout(function(){y.innerHTML = x.value;}, 1000);
+setTimeout(function(){y.innerHTML = x.value;}, 1000); //after all the hardcoded words, it makes the title text equal to your searched word
 });
 
 
