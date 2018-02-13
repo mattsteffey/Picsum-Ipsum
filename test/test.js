@@ -13,14 +13,9 @@ describe('Testing the Tests', function () {
     });
 });
 
-describe('Page Loads', function () {
-it('seeing if the favorites endpoint is set up', function(done) {
-    app.get('/favorites'), function(req, res) {  
-        expect(res.json()).to.be.an('object');
-       
-}
+describe('Eggplant Emoji Check', function () {
+    it('does 🍆  = 🍆 ?', function () {
+        expect('🍆 ').to.equal('🍆 ');
     });
-
-
 });
 
