@@ -28,6 +28,9 @@ btn.addEventListener('click', function() {
 	ourRequest.send();
 });
 
+
+
+
 // FETCH BUTTON
 function renderHTML(data) {
   var htmlString = "";                                       
